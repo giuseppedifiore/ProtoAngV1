@@ -1,0 +1,14 @@
+<ol class="breadcrumb" ng-show="breadcrumbs.breadcrumbs.length>1" ng-cloak>
+    <li ng-repeat="breadcrumb in breadcrumbs.breadcrumbs track by breadcrumb.path"
+        ng-class="{ active: $last }">
+        <a ng-if="!$last" href ng-click="go(breadcrumb.path,breadcrumb.label)" ><i><b>
+            {{'menu.item.'+breadcrumb.label | translate}} </b></i></a>
+        <i ng-if="$last"> {{'menu.item.'+breadcrumb.label | translate}} </i>
+    </li>
+    <a href class=" fa {{icon.back.icon}} pull-right"
+       ng-click="goBack()"
+       type="button"
+       ng-disabled="disableButton"
+       title="{{'button.back.title' | translate}}">
+    </a>
+</ol>

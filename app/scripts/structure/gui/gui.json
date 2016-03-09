@@ -1,0 +1,80 @@
+{
+  "color": {
+    "default": "",
+    "list": [
+      {"code":"","hex":""},
+      {"code":"1","hex":"#535a6c"},
+      {"code":"2","hex":"#2d2f36"},
+      {"code":"3","hex":"#34495e"},
+      {"code":"4","hex":"#3498db"},
+      {"code":"5","hex":"#697289"},
+      {"code":"6","hex":"#8e44ad"},
+      {"code":"7","hex":"#ff604f"},
+      {"code":"8","hex":"#2dcb73"},
+      {"code":"9","hex":"#ffb244"},
+      {"code":"10","hex":"#484e5e"},
+      {"code":"11","hex":"#009688"},
+      {"code":"12","hex":"#008cba"},
+      {"code":"13","hex":"#2d2f36"},
+      {"code":"14","hex":"#880E4F"}
+    ]
+  },
+  "deexEngine": {
+    "default": "",
+    "list": [
+      {"code":""        ,"name":"Off"},
+      {"code":"browser" ,"name":"Browser"},
+      {"code":"os"      ,"name":"Os"}
+    ]
+  },
+  "font": {
+    "default": "",
+    "list": [
+      {"code":"","name":"Default"},
+      {"code":"roboto","name":"Roboto"},
+      {"code":"ptSans","name":"PT Sans"},
+      {"code":"ubuntu","name":"Ubuntu"},
+      {"code":"raleway","name":"Raleway"}
+    ]
+  },
+  "simulateDevice": {
+    "default": "",
+    "list": [
+      {"code":"desktop" ,"name":"Desktop" , "icon":"fa-desktop"},
+      {"code":"tablet"  ,"name":"Tablet"  , "icon":"fa-tablet"},
+      {"code":"mobile"  ,"name":"Mobile"  , "icon":"fa-mobile" }
+    ]
+  },
+  "desk": {
+    "default": "",
+    "list": [
+      {"code":"","name":""},
+      {"code":"1","name":"1"}
+    ]
+  },
+  "theme": {
+    "default": "",
+    "list": [
+      {"name":"Defalut"  , "code":""         , "icon":"fa-star"   , "font":"" , "color":""},
+      {"name":"Material" , "code":"android"  , "icon":"fa-android", "font":"1", "color":"11"},
+      {"name":"Apple"    , "code":"apple"    , "icon":"fa-apple"  , "font":"2", "color":"12"},
+      {"name":"Metro"    , "code":"metro"    , "icon":"fa-windows", "font":"3", "color":"13"},
+      {"name":"Ubuntu"    , "code":"ubuntu"  , "icon":"fa-linux"  , "font":"4", "color":"14",
+        "otherDe":
+        [
+          {"name":"Xfce"    , "code":"//bootswatch.com/cerulean/bootstrap.min.css"},
+          {"name":"Gnome"   , "code":"//bootswatch.com/cyborg/bootstrap.min.css"},
+          {"name":"RedHat"  , "code":"//bootswatch.com/simplex/bootstrap.min.css"},
+          {"name":"Xde"     , "code":"//bootswatch.com/slate/bootstrap.min.css"},
+          {"name":"Mate"    , "code":"//bootswatch.com/spacelab/bootstrap.min.css"}
+        ]}
+      ]
+    },
+  "template": {
+    "default": "",
+    "list": [
+      {"code":"cameo"  ,"name":"cameo"},
+      {"code":"index"  ,"name":"deex"}
+    ]
+  }
+}

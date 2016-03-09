@@ -1,0 +1,14 @@
+[
+  {
+    "item": "dashboard",
+    "route": "dashboard",
+    "inMenu": true,
+    "inDesk": false
+  },
+  {
+    "item": "desk",
+    "route": "desk",
+    "inMenu": true,
+    "inDesk": false
+  }
+]

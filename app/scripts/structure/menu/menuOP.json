@@ -1,0 +1,80 @@
+[
+  {
+    "item": "dashboard",
+    "route": "dashboard",
+    "inMenu": true,
+    "inDesk": false
+  },
+  {
+    "item": "desk",
+    "route": "desk",
+    "inMenu": true,
+    "inDesk": false
+  },
+  {
+    "item": "valueSet",
+    "route": "-",
+    "inMenu": true,
+    "inDesk": false,
+    "sub": [
+      {
+        "item": "valueSet",
+        "route": "vsSearch/!/!/!",
+        "inMenu": true,
+        "inDesk": true
+      },
+      {
+        "item": "conceptMap",
+        "route": "cmSearch/!/!/!",
+        "inMenu": true,
+        "inDesk": true
+      },
+      {
+        "item": "notify",
+        "route": "notifySearch/!/!",
+        "inMenu": true,
+        "inDesk": true
+      }
+    ]
+  },
+  {
+    "item": "organization",
+    "route": "-",
+    "inMenu": true,
+    "inDesk": false,
+    "sub": [
+      {
+        "item": "municipalities",
+        "route": "mnSearch",
+        "inMenu": true,
+        "inDesk": true
+      },
+      {
+        "item": "department",
+        "route": "locationVsSearch/department/!",
+        "inMenu": true,
+        "inDesk": true
+      },
+      {
+        "item": "hospital",
+        "route": "locationVsSearch/hospital/!",
+        "inMenu": true,
+        "inDesk": true
+      }
+    ]
+  },
+  {
+    "item": "doc&links",
+    "route": "-",
+    "inMenu": true,
+    "inDesk": false,
+    "sub": [
+      {
+        "item": "manual",
+        "route": "manual",
+        "inMenu": true,
+        "inDesk": true
+      }
+    ]
+  }
+]

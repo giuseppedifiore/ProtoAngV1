@@ -1,0 +1,33 @@
+<a href="javascript:" data-toggle="dropdown" data-move="{{language[currentLanguage].direction}}" class="no-padding">
+    <hr class="mg-xs hidden-xs text-hide">
+    <span class="fa fa-stack fa-lg">
+        <i class="fa fa-stack-2x fa-circle text-white "></i>
+        <i class="fa fa-stack-1x  {{ icon.settings.icon }} "></i>
+     </span>
+</a>
+<ul class="dropdown-menu dropdown-menu-right no-mg-r" ng-controller="guiCtrl as gui" dir="{{language[currentLanguage].direction}}" >
+    <li class="list-group-item">
+        <div ng-repeat="item in language" ng-show="item.supported">
+            <a href ng-click="changeLanguage(item.code)"><h5>
+                <i ng-class="currentLanguage==item.code?'fa-circle':'fa-circle-o'" class="fa color"></i>
+                {{item.value}}
+            </h5>
+            </a>
+        </div>
+    </li>
+    <li class="list-group-item">
+        <span ng-repeat="item in gui.gs.color()">
+        <button class="btn" ng-style="{'background-color':item.hex}"
+                ng-click="gui.gs.changeColor(item)">
+            <i ng-show="currentColor.code==item.code" class="fa fa-check text-white"></i>
+        </button>
+            </span>
+    </li>
+
+    <li class="list-group-item">
+        <div>
+            <a href ng-click="gui.gs.advancedGui()";>
+                <h5><i class="fa fa-lg {{ icon.advanced.icon }}"></i> &nbsp;{{'structure.gui.advanced' |translate}}</h5></a>
+        </div>
+    </li>
+</ul>

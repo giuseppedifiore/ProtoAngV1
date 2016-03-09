@@ -1,0 +1,27 @@
+{
+  "IT": {
+    "code": "it-it",
+    "language": "IT",
+    "display": "Italiano"
+  },
+  "ES": {
+    "code": "es-es",
+    "language": "ES",
+    "display": "Espa\u00F1ol"
+  },
+  "US": {
+    "code": "en-us",
+    "language": "US",
+    "display": "United State"
+  },
+  "FR": {
+    "code": "fr-fr",
+    "language": "FR",
+    "display": "Fran\u00E7ais"
+  },
+  "ZH": {
+    "code": "zh-cn",
+    "language": "ZH",
+    "display": "\u4E2D\u56FD"
+  }
+}

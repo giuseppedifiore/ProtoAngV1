@@ -1,0 +1,92 @@
+[
+  {
+    "item": "dashboard",
+    "route": "dashboard",
+    "inMenu": true,
+    "inDesk": false
+  },
+  {
+    "item": "desk",
+    "route": "desk",
+    "inMenu": true,
+    "inDesk": false
+  },
+  {
+    "item": "valueSet",
+    "route": "-",
+    "inMenu": true,
+    "inDesk": false,
+    "sub": [
+      {
+        "item": "valueSet",
+        "route": "vsSearch/!/!/!",
+        "inMenu": true,
+        "inDesk": true
+      },
+      {
+        "item": "conceptMap",
+        "route": "cmSearch/!/!/!",
+        "inMenu": true,
+        "inDesk": true
+      },
+      {
+        "item": "notify",
+        "route": "notifySearch/!/!",
+        "inMenu": true,
+        "inDesk": true
+      }
+    ]
+  },
+  {
+    "item": "resource",
+    "route": "-",
+    "inMenu": true,
+    "inDesk": false,
+    "sub": [
+      {
+        "item": "dataElement",
+        "route": "deSearch/!/!/!",
+        "inMenu": true,
+        "inDesk": true
+      },
+      {
+        "item": "practitioner",
+        "route": "practitionerSearch/!/!/!/!/!/!",
+        "inMenu": true,
+        "inDesk": true
+      },
+      {
+        "item": "location",
+        "route": "locationSearch/!/!/!/!/!",
+        "inMenu": true,
+        "inDesk": true
+      },
+      {
+        "item": "organization",
+        "route": "orSearch/!/!/!",
+        "inMenu": true,
+        "inDesk": true
+      }
+    ]
+  },
+  {
+    "item": "doc&links",
+    "route": "-",
+    "inMenu": true,
+    "inDesk": false,
+    "sub": [
+      {
+        "item": "linksFhir",
+        "route": "linksFhir",
+        "inMenu": true,
+        "inDesk": true
+      },
+      {
+        "item": "manual",
+        "route": "manual",
+        "inMenu": true,
+        "inDesk": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+<div ng-repeat="alert in alerts track by $index" style="margin: auto; position: absolute; top: {{$index*5}}0px; left: 0; bottom: 0; right: 0;">
+    <div class="alert btn btn-{{alert.color}} material  col-xs-12 col-sm-offset-4 col-sm-4 "
+         role="alert">
+        <a href class="pull-right" ng-click="alerts.splice($index,1)"><i
+                class="fa fa-lg {{icon.deleteParent.icon}} text-white"></i>
+        </a>
+        <div class="text-white">
+            <small><i ng-click="searchHide=!searchHide" ng-show="alert.detail" class=" pull-left fa  text-white"
+                      ng-class="searchHide?'{{icon.collapse.icon}}':'{{icon.expand.icon}}'"></i></small>
+            <span ng-click="alerts.splice($index,1)">{{alert.message| translate}}</span>
+        </div>
+        <div ng-show="alert.detail">
+            <small ng-show="searchHide">{{alert.detail | translate}}</small>
+        </div>
+    </div>
+    <div ng-show="$first && alerts.length>2">
+        <a type="button" class="btn btn-color btn-sm material hidden-xs"
+           ng-click="alerts.splice(0,alerts.length)"
+           title="{{'button.deleteAll.title'| translate}}"><i class="fa fa-lg {{icon.deleteAll.icon}} fa-invert"></i>
+        </a>
+    </div>
+</div>

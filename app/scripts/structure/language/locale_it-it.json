@@ -1,0 +1,1433 @@
+{
+  "menu": {
+    "item": {
+      "signin": "Accedi",
+      "admin": "Amministratore",
+      "user": "Utente",
+      "home": "Home",
+      "desk": "Desk",
+      "dashboard": "Dashboard",
+      "language": "Lingue",
+      "languageVsSearch": "Ricerca Lingue",
+      "languageVsCrud": "Modifica Lingue",
+      "valueSet": "Dizionari",
+      "vsSearch": "Dizionari",
+      "vsCrud": "Modifica Dizionario",
+      "ccSearch": "Concept",
+      "ccCrud": "Modifica Concept",
+      "resource": "Risorse",
+      "dataElement": "Data Element",
+      "deSearch": "Data Element",
+      "deCrud": "Modifica Data Element",
+      "practitioner": "Medici",
+      "practitionerCrud": "Modifica Medico",
+      "practitionerSearch": "Medici",
+      "location": "Strutture",
+      "locationSearch": "Strutture",
+      "locationCrud": "Modifica Struttura",
+      "locationVsSearch": "Ricerca Struttura",
+      "department": "Reparti",
+      "departmentSearch": "Reparti",
+      "departmentCrud": "Modifica Reparto",
+      "hospital": "Ospedali",
+      "hospitalSearch": "Ospedali",
+      "hospitalCrud": "Modifica Ospedale",
+      "conceptMap": "Mapping",
+      "cmSearch": "Mapping",
+      "cmCrud": "Modifica mapping",
+      "mcCrud": "Modifica map Concept",
+      "organization": "Organizzazioni",
+      "orSearch": "Organizzazioni",
+      "orVsSearch": "Comuni",
+      "orCrud": "Modifica Organizzazioni",
+      "municipalities": "Comuni",
+      "mnSearch": "Comuni",
+      "mnCrud": "Modifica Comuni",
+      "municipalitiesCrud": "Modifica Comuni",
+      "patient": "Pazienti",
+      "patientIta": "Pazienti Italia",
+      "ptSearch": "Pazienti",
+      "ptCrud": "Modifica Paziente",
+      "ptVsSearch": "Pazienti",
+      "ptVsCrud": "Modifica Paziente",
+      "backoffice": "Amministrazione",
+      "domain": "Dominio",
+      "dmSearch": "Domini",
+      "dmCrud": "Modifica Dominio",
+      "subscriber": "Iscritti",
+      "sbSearch": "Iscritti",
+      "sbCrud": "Modifica Iscritti",
+      "scheduler": "Servizi",
+      "shSearch": "Servizi",
+      "notify": "Notifiche",
+      "notifySearch": "Ricerca Applicazioni",
+      "notifyCrud": "Modifica Applicazione",
+      "doc&links": "Doc&Links",
+      "monitor": "Monitor di test",
+      "linksFhir": "Fhir Links",
+      "manual": "Manuale",
+      "changeLog": "Change log",
+      "color": "Colori Primari",
+      "theme": "Temi",
+      "font": "Caratteri",
+      "undefined": "Sessione"
+    }
+  },
+  "item": {
+    "signin": {
+      "signin": "Accedi",
+      "login": "Login",
+      "masterCode": "Master Code Index 2.0",
+      "username": "Utente",
+      "password": "Password"
+    },
+    "valueSet": {
+      "identifier": {
+        "label": "Identificativo"
+      },
+      "id": {
+        "label": "Id"
+      },
+      "name": {
+        "label": "Nome",
+        "invalid": "Nessuno spazio,numero o carattere speciale"
+      },
+      "description": {
+        "label": "Descrizione"
+      },
+      "publisher": {
+        "label": "Editore"
+      },
+      "status": {
+        "": "Stato",
+        "label": "Stato",
+        "draft": "Bozza",
+        "active": "Attiva",
+        "retired": "Ritirata"
+      },
+      "experimental": {
+        "label": "Sperimentale"
+      },
+      "extensible": {
+        "label": "Estensibile"
+      },
+      "system": {
+        "label": "Sistema"
+      },
+      "value": {
+        "label": "Valore"
+      },
+      "version": {
+        "label": "Versione",
+        "invalid": "Numero a 3 cifre"
+      },
+      "caseSensitive": {
+        "label": "Case Sensitive"
+      },
+      "valuesetType": {
+        "label": "Tipo Dizionario"
+      },
+      "metadataType": {
+        "label": "Tipo metadata"
+      },
+      "code": {
+        "label": "Codice"
+      },
+      "display": {
+        "label": "Descrizione"
+      },
+      "definition": {
+        "label": "Definizione Formale"
+      },
+      "requirements": {
+        "label": "Requisiti"
+      },
+      "copyright": {
+        "label": "Copyright"
+      },
+      "immutable": {
+        "label": "Immutabile"
+      },
+      "tab": {
+        "dataValueSet": "Dati Dizionario",
+        "concept": "Concept",
+        "metadata": "Metadata"
+      },
+      "toNotify": {
+        "label": "da Notificare"
+      },
+      "metadata": {
+        "dataElement": {
+          "label": "Elemento"
+        },
+        "practitioner": {
+          "label": "Medico"
+        },
+        "location": {
+          "label": "Struttura"
+        },
+        "organization": {
+          "label": "Organizzazione"
+        },
+        "municipalities": {
+          "label": "Comune"
+        },
+        "medication": {
+          "label": "Medicazione"
+        }
+      },
+      "page": {
+        "vsSearch": {
+          "title": "Ricerca Dizionario"
+        },
+        "vsCrud": {
+          "titleAdd": "Crea Dizionario",
+          "titleEdit": "Modifica Dizionario"
+        },
+        "ccSearch": {
+          "title": "Ricerca Concepts"
+        },
+        "ccCrud": {
+          "titleAdd": "Crea Concepts",
+          "titleEdit": "Modifica Concepts",
+          "designationAdd": "Aggiungi Designation",
+          "designationDelete": "Elimina Designation"
+        }
+      },
+      "error": {
+        "search": "Errore nel reperimento della lista dei ValueSet",
+        "load": "Errore nel caricamento del Valueset",
+        "upload": "Errore nell' upload del file",
+        "insert": "Errore nell' inserimento del ValueSet",
+        "update": "Errore nell' aggiornamento del ValueSet",
+        "delete": "Errore nell' eliminazione del ValueSet",
+        "notify": "Errore nella notifica del ValueSet"
+      },
+      "success": {
+        "insert": "Inserimento ValueSet effettuato",
+        "update": "Aggiornamento del ValueSet effettuato",
+        "delete": "Cancellazione del ValueSet effettuata",
+        "upload": "Upload del file effettuato",
+        "notify": "Sottoscrizione della Notifica del ValueSet effettuata"
+      }
+    },
+    "concept": {
+      "identifier": {
+        "label": "Identificativo"
+      },
+      "code": {
+        "label": "Codice"
+      },
+      "display": {
+        "label": "Descrizione"
+      },
+      "value": {
+        "label": "Valore"
+      },
+      "definition": {
+        "label": "Definizione Formale"
+      },
+      "tab": {
+        "dataValueSet": "Dati Dizionario",
+        "concept": "Concept",
+        "metadata": "Metadata"
+      },
+      "page": {
+        "ccSearch": {
+          "title": "Ricerca Concepts"
+        },
+        "ccCrud": {
+          "titleAdd": "Crea Concepts",
+          "titleEdit": "Modifica Concepts",
+          "designationAdd": "Aggiungi Designation",
+          "designationDelete": "Elimina Designation"
+        }
+      },
+      "error": {
+        "search": "Errore nel reperimento della lista dei Concept",
+        "load": "Errore nel caricamento del Concept",
+        "upload": "Errore nell' upload del file",
+        "insert": "Errore nell' inserimento del Concept",
+        "update": "Errore nell' aggiornamento del Concept",
+        "delete": "Errore nell' eliminazione del Concept"
+      },
+      "success": {
+        "insert": "Inserimento Concept effettuato",
+        "update": "Aggiornamento del Concept effettuato",
+        "delete": "Cancellazione del Concept effettuata"
+      }
+    },
+    "dataElement": {
+      "identifier": {
+        "label": "Identificativo"
+      },
+      "id": {
+        "label": "Id"
+      },
+      "name": {
+        "label": "Nome"
+      },
+      "description": {
+        "label": "Descrizione"
+      },
+      "publisher": {
+        "label": "Editore"
+      },
+      "status": {
+        "label": "Stato",
+        "draft": "Bozza",
+        "active": "Attiva",
+        "retired": "Ritirata"
+      },
+      "system": {
+        "label": "Sistema"
+      },
+      "value": {
+        "label": "Valore"
+      },
+      "version": {
+        "label": "Versione"
+      },
+      "stringency": {
+        "label": "Severità",
+        "comparable": "Comparabile",
+        "fully-specified": "Completamente specificato",
+        "equivalent": "Equivalente",
+        "convertable": "Convertibile",
+        "scaleable": "Scalabile",
+        "flexible": "Flessibile"
+      },
+      "path": {
+        "label": "Indirizzo"
+      },
+      "defaultValueString": {
+        "label": "Default value"
+      },
+      "tab": {
+        "concept": "Concept",
+        "metadata": "Metadata"
+      },
+      "page": {
+        "deSearch": {
+          "title": "Ricerca Data Element"
+        },
+        "deCrud": {
+          "titleAdd": "Inserisci Data Element",
+          "titleEdit": "Modifica Data Element"
+        }
+      },
+      "error": {
+        "search": "Errore nel reperimento lista Data Element",
+        "get": "Errore nel reperimento Data Element richiesto",
+        "insert": "Errore nell' inserimento del Data Element",
+        "update": "Errore nell' aggiornamento del Data Element",
+        "delete": "Errore nell' eliminazione del Data Element"
+      },
+      "success": {
+        "insert": "Inserimento Data Element effettuato",
+        "update": "Aggiornamento del Data Element effettuato",
+        "delete": "Cancellazione del Data Element effettuata"
+      }
+    },
+    "practitioner": {
+      "identifier": {
+        "label": "Identificativo"
+      },
+      "fiscalCode": {
+        "label": "Codice Fiscale"
+      },
+      "codice": {
+        "label": "Codice"
+      },
+      "id": {
+        "label": "Id"
+      },
+      "name": {
+        "label": "Nome"
+      },
+      "nominative": {
+        "label": "Nominativo"
+      },
+      "given": {
+        "label": "Nome"
+      },
+      "family": {
+        "label": "Cognome"
+      },
+      "birthDate": {
+        "label": "Data Nascita"
+      },
+      "gender": {
+        "label": "Sesso",
+        "male": "Maschio",
+        "female": "Femmina",
+        "other": "Altro",
+        "unknown": "Sconosciuto"
+      },
+      "description": {
+        "label": "Descrizione"
+      },
+      "system": {
+        "label": "System"
+      },
+      "value": {
+        "label": "Valore"
+      },
+      "address": {
+        "label": "Indirizzo",
+        "use": {
+          "label": "Tipo",
+          "birth": "Nascita",
+          "residence": "Residenza",
+          "domicile": "Domicilio"
+        }
+      },
+      "line": {
+        "label": "Via"
+      },
+      "city": {
+        "label": "Citt\u00E0"
+      },
+      "state": {
+        "label": "Regione"
+      },
+      "postalCode": {
+        "label": "Cap"
+      },
+      "department": {
+        "label": "Reparto"
+      },
+      "hospital": {
+        "label": "Ospedale"
+      },
+      "country": {
+        "label": "Nazione"
+      },
+      "telecom": {
+        "label": "Recapiti",
+        "system": {
+          "label": "Tipo",
+          "email": "Email",
+          "phone": "Telefono",
+          "url": "Url",
+          "fax": "Fax"
+        },
+        "use": {
+          "label": "Luogo",
+          "home": "Casa",
+          "work": "Lavoro",
+          "mobile": "Mobile"
+        }
+      },
+      "practitionerRole": {
+        "label": "Ruolo"
+      },
+      "role": {
+        "label": "Ruolo",
+        "": "Nessun Ruolo",
+        "doctor": "Dottore",
+        "nurse": "Infermiera",
+        "pharmacist": "Farmacista",
+        "researcher": "Ricercatore",
+        "teacher": "Insegnante",
+        "ict": "Professionista ICT"
+      },
+      "specialty": {
+        "label": "Specializzazione",
+        "cardio": "Cardiologia",
+        "dent": "Dentista",
+        "dietary": "Dietologo",
+        "midw": "Levatrice",
+        "sysarch": "Sistemista"
+      },
+      "communication": {
+        "label": "Comunicazione",
+        "text": {
+          "label": "Lingua"
+        }
+      },
+      "coding": {
+        "label": "Codifica"
+      },
+      "text": {
+        "label": "Testo"
+      },
+      "managingOrganization": {
+        "label": "Struttura"
+      },
+      "location": {
+        "label": "Struttura",
+        "id": {
+          "label": "Identificativo"
+        }
+      },
+      "partOf": {
+        "label": "Parte di Struttura"
+      },
+      "code": {
+        "label": "Codice"
+      },
+      "display": {
+        "label": "Descrizione"
+      },
+      "qualification": {
+        "label": "Qualifica"
+      },
+      "startPeriod": {
+        "label": "Data Inizio"
+      },
+      "endPeriod": {
+        "label": "Data Fine"
+      },
+      "tab": {
+        "concept": "Concept",
+        "metadata": "Metadata"
+      },
+      "page": {
+        "practitionerCrud": {
+          "titleAdd": "Inserisci Medico",
+          "titleEdit": "Modifica Medico"
+        },
+        "practitionerSearch": {
+          "title": "Ricerca Medico"
+        },
+        "selectLocation": {
+          "title": "Scegli Struttura"
+        }
+      },
+      "error": {
+        "load": "Errore nel caricamento del Medico",
+        "search": "Errore nel reperimento dei Medici",
+        "insert": "Errore nell' inserimento del Medico",
+        "update": "Errore nell' aggiornamento del Medico",
+        "delete": "Errore nell' eliminazione del Medico"
+      },
+      "success": {
+        "insert": "Inserimento del Medico effettuato",
+        "update": "Aggiornamento del Medico effettuato",
+        "delete": "Cancellazione del Medico effettuata"
+      }
+    },
+    "patient": {
+      "identifier": {
+        "label": "Identificativo"
+      },
+      "fiscalCode": {
+        "label": "Codice Fiscale"
+      },
+      "codice": {
+        "label": "Codice"
+      },
+      "id": {
+        "label": "Id"
+      },
+      "given": {
+        "label": "Nome"
+      },
+      "nominative": {
+        "label": "Nominativo"
+      },
+      "family": {
+        "label": "Cognome"
+      },
+      "birthDate": {
+        "label": "Data Nascita"
+      },
+      "birthPlace": {
+        "label": "Luogo di Nascita"
+      },
+      "gender": {
+        "label": "Sesso",
+        "male": "Maschio",
+        "female": "Femmina",
+        "other": "Altro",
+        "unknown": "Sconosciuto"
+      },
+      "description": {
+        "label": "Descrizione"
+      },
+      "system": {
+        "": "",
+        "label": "System",
+        "other": "Altri",
+        "idCard": "Codice Fiscale",
+        "socialNumber": "Tessera Sanitaria",
+        "x1v1Mpi": "id MPI",
+        "idInternal": "id Interno"
+      },
+      "x1v1Mpi": {
+        "label": "Id MPI"
+      },
+      "maritalStatus": {
+        "label": "Stato civile",
+        "U": "Celibe/Nubile",
+        "A": "Annullato",
+        "D": "Divorziato",
+        "I": "Interlocutorio",
+        "L": "Separato",
+        "M": "Sposato",
+        "P": "Poligamo",
+        "S": "Mai sposato",
+        "T": "Convivente",
+        "W": "Vedovo"
+      },
+      "communication": {
+        "label": "Comunicazione"
+      },
+      "value": {
+        "label": "Valore"
+      },
+      "startPeriod": {
+        "label": "Data Inizio"
+      },
+      "endPeriod": {
+        "label": "Data Fine"
+      },
+      "address": {
+        "label": "Indirizzo",
+        "use": {
+          "label": "Tipo",
+          "birth": "Nascita",
+          "residence": "Residenza",
+          "domicile": "Domicilio",
+          "home": "Casa",
+          "work": "Lavoro",
+          "temp": "Temporaneo",
+          "old": "Vecchio"
+        }
+      },
+      "line": {
+        "label": "Via"
+      },
+      "civic": {
+        "label": "n\u00B0 "
+      },
+      "city": {
+        "label": "Citt\u00E0"
+      },
+      "state": {
+        "label": "Regione"
+      },
+      "postalCode": {
+        "label": "Cap"
+      },
+      "country": {
+        "label": "Nazione"
+      },
+      "telecom": {
+        "label": "Recapiti",
+        "system": {
+          "label": "Tipo",
+          "email": "Email",
+          "phone": "Telefono",
+          "url": "Url",
+          "fax": "Fax"
+        },
+        "use": {
+          "label": "Luogo",
+          "home": "Casa",
+          "work": "Lavoro",
+          "mobile": "Mobile"
+        }
+      },
+      "page": {
+        "ptSearch": {
+          "title": "Ricerca Paziente"
+        },
+        "ptCrud": {
+          "titleAdd": "Crea Paziente",
+          "titleEdit": "Modifica Paziente",
+          "group": {
+            "primaryInformation": "Infomazioni di base",
+            "identifiers": "Identificativi",
+            "legalAddress": "Domicilio",
+            "homeAddress": "Residenza",
+            "contacts": "Contatti"
+          }
+        }
+      },
+      "error": {
+        "search": "Errore nel reperimento della lista dei Pazienti",
+        "load": "Errore nel caricamento del Paziente",
+        "insert": "Errore nell' inserimento del Paziente",
+        "update": "Errore nell' aggiornamento del Paziente",
+        "delete": "Errore nell' eliminazione del Paziente"
+      },
+      "success": {
+        "insert": "Inserimento Paziente effettuato",
+        "update": "Aggiornamento del Paziente effettuato",
+        "delete": "Cancellazione del Paziente effettuata"
+      }
+    },
+    "location": {
+      "identifier": {
+        "label": "Identificativo"
+      },
+      "system": {
+        "label": "Sistema"
+      },
+      "value": {
+        "label": "Valore"
+      },
+      "name": {
+        "label": "Nome"
+      },
+      "description": {
+        "label": "Descrizione"
+      },
+      "code": {
+        "label": "Codice"
+      },
+      "mode": {
+        "label": "Modalit\u00E0",
+        "instance": "Posizione",
+        "kind": "Classe"
+      },
+      "tab": {
+        "concept": "Concept",
+        "metadata": "Metadata"
+      },
+      "telecom": {
+        "label": "Recapiti",
+        "system": {
+          "label": "Tipo",
+          "email": "Email",
+          "phone": "Telefono",
+          "url": "Url",
+          "fax": "Fax"
+        },
+        "use": {
+          "label": "Luogo",
+          "home": "Casa",
+          "work": "Lavoro",
+          "mobile": "Mobile"
+        },
+        "value": {
+          "label": "Valore"
+        }
+      },
+      "address": {
+        "label": "Indirizzo",
+        "use": {
+          "label": "Tipo",
+          "home": "Base",
+          "temp": "Temporaneo"
+        },
+        "city": {
+          "label": "Citt\u00E0"
+        },
+        "line": {
+          "label": "Via"
+        },
+        "country": {
+          "label": "Nazione"
+        },
+        "state": {
+          "label": "Regione"
+        },
+        "postalCode": {
+          "label": "Cap"
+        }
+      },
+      "position": {
+        "label": "Posizione",
+        "latitude": {
+          "label": "Latitudine"
+        },
+        "longitude": {
+          "label": "Longitudine"
+        },
+        "altitude": {
+          "label": "Altitudine"
+        }
+      },
+      "partOf": {
+        "label": "Parte di Struttura"
+      },
+      "locationType": {
+        "label": "Struttura",
+        "hospital": "Ospedale",
+        "anatIstPat": "Anatomia e Istologia patologica",
+        "card": "Cardiologia",
+        "chirArtSup": "Chirurgia dell'arto superiore",
+        "chirGen": "Chirurgia generale",
+        "diab": "Diabetologia",
+        "emat": "Ematologia",
+        "farma": "Farmacia",
+        "gastr": "Gastroenterologia",
+        "geri": "Geriatria",
+        "labAna": "Laboratorio analisi",
+        "lung": "Lungodegenza"
+      },
+      "physicalType": {
+        "label": "Struttura Fisica",
+        "bu": "Edificio",
+        "wi": "Ala",
+        "lvl": "Livello",
+        "co": "Corridoio",
+        "ro": "Stanza",
+        "bd": "Letto",
+        "ve": "Veicolo",
+        "ho": "Casa",
+        "ca": "Armadietto",
+        "rd": "Strada",
+        "jdn": "Giurisdizione",
+        "area": "Area"
+      },
+      "status": {
+        "": "Stato",
+        "label": "Stato",
+        "active": "Attiva",
+        "suspended": "Sospesa",
+        "inactive": "Inattiva"
+      },
+      "page": {
+        "locationCrud": {
+          "titleAdd": "Inserisci Struttura",
+          "titleEdit": "Modifica Struttura"
+        },
+        "locationSearch": {
+          "title": "Ricerca Struttura"
+        },
+        "selectLocation": {
+          "title": "Scegli Struttura"
+        },
+        "departmentVsCrud": {
+          "titleAdd": "Inserisci Reparto",
+          "titleEdit": "Modifica Reparto"
+        },
+        "departmentVsSearch": {
+          "title": "Ricerca Reparto"
+        },
+        "hospitalVsCrud": {
+          "titleAdd": "Inserisci Ospedale",
+          "titleEdit": "Modifica Ospedale"
+        },
+        "hospitalVsSearch": {
+          "title": "Ricerca Ospedale"
+        }
+      },
+      "error": {
+        "search": "Errore nel reperimento delle Strutture",
+        "insert": "Errore nell' inserimento della Struttura",
+        "update": "Errore nell' aggiornamento della Struttura",
+        "delete": "Errore nell' eliminazione della Struttura"
+      },
+      "success": {
+        "insert": "Inserimento della Struttura effettuato",
+        "update": "Aggiornamento della Struttura effettuato",
+        "delete": "Cancellazione della Struttura effettuata"
+      }
+    },
+    "conceptMap": {
+      "identifier": {
+        "label": "Identificativo"
+      },
+      "id": {
+        "label": "Id"
+      },
+      "name": {
+        "label": "Nome",
+        "invalid": "Nessuno spazio,numero o carattere speciale"
+      },
+      "description": {
+        "label": "Descrizione"
+      },
+      "publisher": {
+        "label": "Editore"
+      },
+      "status": {
+        "": "Stato",
+        "label": "Stato",
+        "draft": "Bozza",
+        "active": "Attiva",
+        "retired": "Ritirata"
+      },
+      "experimental": {
+        "label": "Sperimentale"
+      },
+      "system": {
+        "label": "Sistema"
+      },
+      "value": {
+        "label": "Valore"
+      },
+      "sourceUri": {
+        "label": "ValueSet Sorgente"
+      },
+      "targetUri": {
+        "label": "ValueSet Destinazione"
+      },
+      "sourceReference": {
+        "label": "Source Code da mappare"
+      },
+      "targetReference": {
+        "label": "Target Code da mappare"
+      },
+      "code": {
+        "label": "Codice"
+      },
+      "codeSystem": {
+        "label": "Code system"
+      },
+      "page": {
+        "cmSearch": {
+          "title": "Ricerca Concept Map",
+          "select": "Seleziona",
+          "conceptMap": "Concept Map",
+          "description": "Descrizione"
+        },
+        "cmCrud": {
+          "titleAdd": "Crea Concept Map",
+          "titleEdit": "Modifica Concept Map"
+        },
+        "mcSearch": {
+          "title": "Ricerca Map Concepts"
+        },
+        "mcCrud": {
+          "titleAdd": "Crea Map Concepts",
+          "titleEdit": "Modifica Map Concepts",
+          "elementAdd": "Aggiungi Designation",
+          "elementDelete": "Elimina Designation",
+          "refreshValueSet": "Aggiorna il Dizionario",
+          "searchValueSet": "Ricerca Dizionario",
+          "sourceList": "Sorgente",
+          "targetList": "Destinazione",
+          "mapList": "Map",
+          "deleteAllMap": "Cancella tutti i legami"
+        }
+      },
+      "tab": {
+        "conceptMap": "Concept Map",
+        "mapConcept": "Map Concept"
+      },
+      "error": {
+        "search": "Errore nel reperimento della lista delle Concept Map",
+        "load": "Errore nel caricamento delle Concept Map",
+        "insert": "Errore nell' inserimento delle Concept Map",
+        "update": "Errore nell' aggiornamento delle Concept Map",
+        "delete": "Errore nell' eliminazione delle Concept Map"
+      },
+      "success": {
+        "insert": "Inserimento Concept Map effettuato",
+        "update": "Aggiornamento del Concept Map effettuato",
+        "delete": "Cancellazione del Concept Map effettuato"
+      }
+    },
+    "notify": {
+      "code": {
+        "label": "Codice"
+      },
+      "description": {
+        "label": "Descrizione"
+      },
+      "page": {
+        "notifySearch": {
+          "title": "Ricerca Applicazioni da notificare",
+          "select": "Seleziona"
+        },
+        "notifyCrud": {
+          "title": "Modifica Applicazione da notificare",
+          "titleAdd": "Crea Notifiche",
+          "titleEdit": "Modifica Notifiche"
+        }
+      },
+      "error": {
+        "search": "Errore nel reperimento della lista delle Notifiche",
+        "load": "Errore nel caricamento delle Notifiche",
+        "insert": "Errore nell' inserimento delle Notifiche",
+        "update": "Errore nell' aggiornamento delle Notifiche",
+        "delete": "Errore nell' eliminazione delle Notifiche"
+      },
+      "success": {
+        "insert": "Inserimento notifica effettuata",
+        "update": "Aggiornamento notifica effettuata",
+        "delete": "Cancellazione notifica effettuata"
+      }
+    },
+    "organization": {
+      "code": {
+        "label": "Codice"
+      },
+      "identifier": {
+        "label": "Identificativo"
+      },
+      "system": {
+        "label": "Sistema"
+      },
+      "value": {
+        "label": "Valore"
+      },
+      "name": {
+        "label": "Nome"
+      },
+      "active": {
+        "label": "Attivo"
+      },
+      "address": {
+        "label": "Indirizzo",
+        "use": {
+          "label": "Tipo",
+          "birth": "Nascita",
+          "residence": "Residenza",
+          "domicile": "Domicilio"
+        }
+      },
+      "line": {
+        "label": "Via"
+      },
+      "city": {
+        "label": "Citt\u00E0"
+      },
+      "state": {
+        "label": "Regione"
+      },
+      "postalCode": {
+        "label": "Cap"
+      },
+      "country": {
+        "label": "Nazione"
+      },
+      "telecom": {
+        "label": "Recapiti",
+        "system": {
+          "label": "Tipo",
+          "email": "Email",
+          "phone": "Telefono",
+          "url": "Url",
+          "fax": "Fax"
+        },
+        "use": {
+          "label": "Luogo",
+          "home": "Casa",
+          "work": "Lavoro",
+          "mobile": "Mobile"
+        }
+      },
+      "organizationType": {
+        "label": "Tipo",
+        "prov": "Assistenza sanitaria",
+        "dept": "Dipartimento Ospedaliero",
+        "team": "Squadra organizzativa",
+        "govt": "Struttura Governativa",
+        "ins": "Compagnia assicurativa",
+        "edu": "Istituto Educativo",
+        "reli": "Istituto religioso"
+      },
+      "page": {
+        "orSearch": {
+          "title": "Ricerca Organizzazione"
+        },
+        "orCrud": {
+          "titleAdd": "Crea Organizzazione",
+          "titleEdit": "Modifica Organizzazione"
+        }
+      },
+      "error": {
+        "search": "Errore nel reperimento della lista delle Organizzazione",
+        "load": "Errore nel caricamento dell' Organizzazione",
+        "insert": "Errore nell' inserimento dell' Organizzazione",
+        "update": "Errore nell' aggiornamento dell' Organizzazione",
+        "delete": "Errore nell' eliminazione dell' Organizzazione"
+      },
+      "success": {
+        "insert": "Inserimento Organizzazione effettuato",
+        "update": "Aggiornamento dell' Organizzazione effettuato",
+        "delete": "Cancellazione dell' Organizzazione effettuata"
+      }
+    },
+    "municipalities": {
+      "istat": {
+        "label": "Codice Istat"
+      },
+      "cadastral": {
+        "label": "Codice Catastale"
+      },
+      "code": {
+        "label": "Code"
+      },
+      "name": {
+        "label": "Nome"
+      },
+      "startPeriod": {
+        "label": "Inizio Validit\u00E0"
+      },
+      "endPeriod": {
+        "label": "Fine Validit\u00E0"
+      },
+      "district": {
+        "label": "Provincia"
+      },
+      "postalCode": {
+        "label": "Cap"
+      },
+      "state": {
+        "label": "Regione"
+      },
+      "city": {
+        "label": "Citt\u00E0"
+      },
+      "country": {
+        "label": "Nazione"
+      },
+      "page": {
+        "municipalitiesSearch": {
+          "title": "Ricerca Comune"
+        },
+        "municipalitiesCrud": {
+          "titleAdd": "Crea Comune",
+          "titleEdit": "Modifica Comune"
+        }
+      },
+      "error": {
+        "search": "Errore nel reperimento della lista dei Comuni",
+        "load": "Errore nel caricamento del Comune",
+        "insert": "Errore nell' inserimento del Comune",
+        "update": "Errore nell' aggiornamento del Comune",
+        "delete": "Errore nell' eliminazione del Comune"
+      },
+      "success": {
+        "insert": "Inserimento Comune effettuato",
+        "update": "Aggiornamento del Comune effettuato",
+        "delete": "Cancellazione del Comune effettuata"
+      }
+    },
+    "domain": {
+      "domainid": {
+        "label": "Indice"
+      },
+      "authority": {
+        "label": "Dominio"
+      },
+      "root": {
+        "label": "Indirizzo"
+      },
+      "description": {
+        "label": "Descrizione"
+      },
+      "priority": {
+        "label": "Priorit\u00E0"
+      },
+      "typecode": {
+        "label": "Tipo"
+      },
+      "page": {
+        "dmSearch": {
+          "title": "Elenco Domini"
+        },
+        "dmCrud": {
+          "titleAdd": "Nuovo Dominio",
+          "titleEdit": "Modifica Dominio"
+        }
+      },
+      "error": {
+        "search": "Errore nel reperimento della lista dei Dominio",
+        "load": "Errore nel caricamento del Dominio",
+        "insert": "Errore nell' inserimento del Dominio",
+        "update": "Errore nell' aggiornamento de Dominio",
+        "delete": "Errore nell' eliminazione de Dominio"
+      },
+      "success": {
+        "insert": "Inserimento Dominio effettuato",
+        "update": "Aggiornamento del Dominio effettuato",
+        "delete": "Cancellazione del Dominio effettuata"
+      }
+    },
+    "subscriber": {
+      "id": {
+        "label": "Codice"
+      },
+      "description": {
+        "label": "Descrizione"
+      },
+      "eventindex": {
+        "label": "Indice Evento"
+      },
+      "endpoint": {
+        "label": "Indirizzo"
+      },
+      "lastidEvent": {
+        "label": "n\u00B0"
+      },
+      "enqueuer": {
+        "label": "Richieste"
+      },
+      "sender": {
+        "label": "Invii"
+      },
+      "page": {
+        "sbSearch": {
+          "title": "Elenco iscritti"
+        },
+        "sbCrud": {
+          "titleAdd": "Nuovo iscritto",
+          "titleEdit": "Modifica iscritto"
+        }
+      },
+      "error": {
+        "search": "Errore nel reperimento della lista degli iscritti",
+        "load": "Errore nel caricamento dell' Iscritto",
+        "insert": "Errore nell' inserimento dell' Iscritto",
+        "update": "Errore nell' aggiornamento del' Iscritto",
+        "delete": "Errore nell' eliminazione del' Iscritto"
+      },
+      "success": {
+        "insert": "Inserimento Iscritto effettuato",
+        "update": "Aggiornamento dell' Iscritto effettuato",
+        "delete": "Cancellazione dell' Iscritto effettuata"
+      }
+    },
+    "scheduler": {
+      "id": {
+        "label": "Codice"
+      },
+      "endpoint": {
+        "label": "Indirizzo"
+      },
+      "lastidEvent": {
+        "label": "n\u00B0"
+      },
+      "enqueuer": {
+        "label": "Richieste"
+      },
+      "sender": {
+        "label": "Invii"
+      },
+      "page": {
+        "shSearch": {
+          "title": "Elenco Servizi"
+        }
+      }
+    }
+  },
+  "button": {
+    "addParent": {
+      "title": "Aggiungi sezione"
+    },
+    "deleteParent": {
+      "title": "Cancella sezione"
+    },
+    "add": {
+      "label": "Crea",
+      "title": "Crea nuovo elemento"
+    },
+    "edit": {
+      "label": "Modifica",
+      "title": "Modifica elemento"
+    },
+    "import": {
+      "label": "Carica File",
+      "title": "Carica da File esterno"
+    },
+    "search": {
+      "label": "Ricerca",
+      "title": "Cerca un elemento"
+    },
+    "insert": {
+      "label": "Aggiungi",
+      "title": "Inserisce elemento"
+    },
+    "update": {
+      "label": "Salva",
+      "title": "Salva elemento"
+    },
+    "delete": {
+      "label": "Elimina",
+      "title": "Elimina elemento"
+    },
+    "deleteAll": {
+      "label": "Elimina tutto",
+      "title": "Elimina tutti gli elementi"
+    },
+    "notify": {
+      "label": "Notifica",
+      "title": "Notifica agli altri applicativi "
+    },
+    "select": {
+      "label": "Seleziona",
+      "title": "Seleziona elemento"
+    },
+    "new": {
+      "label": "Nuovo",
+      "title": "Nuova Applicazione"
+    },
+    "previous": {
+      "label": "<<",
+      "title": "Prec"
+    },
+    "next": {
+      "label": ">>",
+      "title": "Succ"
+    },
+    "cancel": {
+      "label": "Annulla",
+      "title": "Annulla operazione"
+    },
+    "confirm": {
+      "label": "Conferma",
+      "title": "Conferma operazione"
+    },
+    "close": {
+      "label": "Chiudi",
+      "title": "Chiudi finestra"
+    },
+    "back": {
+      "label": "Indietro",
+      "title": "Indietro"
+    },
+    "gotoManual": {
+      "label": "Aiuto",
+      "title": "Vai al Manuale"
+    },
+    "apply": {
+      "label": "Applica",
+      "title": "Applica i dati ai campi"
+    },
+    "details": {
+      "label": "Dettagli",
+      "title": "Visualizza dettagli"
+    },
+    "play": {
+      "label": "Avvia",
+      "title": "Avvia Servizio"
+    },
+    "pause": {
+      "label": "Pausa",
+      "title": "Metti in pausa"
+    }
+  },
+  "structure": {
+    "splash": {
+      "welcome": "Benvenuto in Mci 2.0 !",
+      "message": "clicca su 'Aiuto' per una breve introduzione al prodotto",
+      "noSplash": "Non visualizzare pi\u00F9 questa finestra"
+    },
+    "userMenu": {
+      "settings": {
+        "label": "Preferenze"
+      },
+      "help": {
+        "label": "Aiuto ?"
+      },
+      "logout": {
+        "label": "Disconnetti"
+      },
+      "role": {
+        "OP": "Operatore",
+        "ME": "Medico",
+        "UsersAdmins": "Amministratore"
+      }
+    },
+    "dashboard": {
+      "load": "Errore nel caricamento della Dashboard"
+    },
+    "confirmation": {
+      "confirmDelete": {
+        "label": "Conferma cancellazione"
+      },
+      "messageDelete": {
+        "label": "Sei Sicuro di voler cancellare questo elemento?"
+      },
+      "confirmUpdate": {
+        "label": "Conferma sovrascrittura"
+      },
+      "messageUpdate": {
+        "label": "Sei Sicuro di voler Sovrascrivere i dati con quelli caricati?"
+      },
+      "confirmApplyGmap": {
+        "label": "Conferma Applicazione"
+      },
+      "messageApplyGmap": {
+        "label": "Applicando i dati di GMap potresti sovrascrivere quelli esistenti. Sei Sicuro di voler sovrascrivere i dati?"
+      }
+    },
+    "formMessage": {
+      "valueRequired": "Campo obbligatorio",
+      "valueInvalid": "Valore non valido",
+      "fiscalCodeLenght": "Lunghezza errata (16 car.)",
+      "emailFormat": "Formato E-mail non valido"
+    },
+    "upload": {
+      "drag&Drop": {
+        "label": "Drag & drop",
+        "title": "Trascina qui il tuo file.. "
+      },
+      "uploadFile": {
+        "title": "oppure Sfoglia.. "
+      },
+      "selectFile": {
+        "title": "Seleziona file"
+      },
+      "pause": {
+        "label": "Pausa",
+        "title": "Metti in pausa il caricamento del file"
+      },
+      "resume": {
+        "label": "Riprendi",
+        "title": "Riprendi il caricamento del file"
+      },
+      "cancel": {
+        "label": "Cancella",
+        "title": "Cancella il caricamento del file"
+      },
+      "retry": {
+        "label": "Riprova",
+        "title": "Riprova a caricare il file"
+      },
+      "upload": {
+        "label": "Carica",
+        "title": "Carica file"
+      }
+    },
+    "search": {
+      "count": {
+        "label": "Righe",
+        "title": "Numero di righe da restituire"
+      },
+      "results": {
+        "label": "Risultati",
+        "title": "Numero di righe trovate",
+        "empty": "Nessun elemento trovato"
+      },
+      "sort": {
+        "label": "Ordina",
+        "title": "Ordinamento dei risultati",
+        "name": "Nominativo",
+        "identifier": "Identificativo",
+        "code": "Codice",
+        "display": "Descrizione",
+        "location": "Struttura",
+        "direction": {
+          "asc": "Crescente",
+          "desc": "Decrescente"
+        }
+      }
+    },
+    "toolBox": {
+      "downloadJson": "Scarica Json",
+      "uploadJson": "Importa Json",
+      "downloadLanguage": "Scarica Lingua",
+      "uploadLanguage": "Importa Lingua",
+      "deleteAll": "Elimina tutto"
+    },
+    "menu": {
+      "load": "Errore nel caricamento dei Menu"
+    },
+    "gui": {
+      "advanced": "Avanzate",
+      "load": "Errore nel caricamento delle Preferenze"
+    },
+    "language": {
+      "load": "Errore nel caricamento delle Lingue"
+    },
+    "settings": {
+      "load": "Errore nel caricamento dei Settings"
+    },
+    "utils": {
+      "load": "Errore nel caricamento delle Utils"
+    },
+    "fhir": {
+      "load": "Errore nel caricamento delle utility Fhir"
+    }
+  }
+}

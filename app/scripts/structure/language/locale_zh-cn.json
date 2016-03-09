@@ -1,0 +1,1355 @@
+{
+  "menu": {
+    "item": {
+      "signin": "\u767B \u5165",
+      "admin": "\u7BA1\u7406\u5458",
+      "user":"\u7528\u6237",
+      "home": "\u5BB6",
+      "desk": "\u684C \u9762",
+      "dashboard": "\u4EEA \u8868 \u677F",
+      "language": "\u8BED \u8A00",
+      "languageVsSearch": "\u67E5 \u627E \u8BED \u8A00",
+      "languageVsCrud": "\u7F16 \u8F91 \u8BED \u8A00",
+      "valueSet": "\u503C \u96C6",
+      "vsSearch": "\u503C \u96C6",
+      "vsCrud": "\u4FEE \u6539 \u503C \u96C6",
+      "ccSearch": "\u7BA1 \u7406 \u6982 \u5FF5",
+      "ccCrud": "\u4FEE \u6539 \u6982 \u5FF5",
+      "dataElement": "\u6570 \u636E \u5143 \u7D20",
+      "deCrud": "\u7F16 \u8F91 \u6570 \u636E \u5143 \u7D20",
+      "practitioner": "\u4ECE \u4E1A",
+      "practitionerCrud": "\u7F16 \u8F91 \u4ECE \u4E1A",
+      "practitionerSearch": "\u5BFB \u627E\u533B \u751F",
+      "location": "\u4F4D \u7F6E",
+      "locationSearch": "\u5730 \u70B9",
+      "locationCrud": "\u7F16 \u8F91 \u4F4D \u7F6E",
+      "locationVsSearch": "\u67E5 \u627E \u4F4D \u7F6E",
+      "department": "\u90E8 \u95E8",
+      "departmentSearch": "\u90E8 \u95E8",
+      "departmentCrud": "\u7F16 \u8F91 \u90E8",
+      "hospital": "\u533B \u9662",
+      "hospitalSearch": "\u533B \u9662",
+      "hospitalCrud": "\u7F16 \u8F91 \u533B \u9662",
+      "conceptMap": "\u6982 \u5FF5 \u56FE",
+      "cmSearch": "\u7BA1 \u7406 \u6620 \u5C04",
+      "cmCrud": "\u7F16 \u8F91 \u5236 \u56FE",
+      "mcCrud": "\u7F16 \u8F91 \u5730 \u56FE \u6982 \u5FF5",
+      "organization": "Organization",
+      "orSearch": "Organization",
+      "orCrud": "Modifica Organization",
+      "orVsSearch": "Municipalities",
+      "municipalities": "Municipalities",
+      "mnSearch": "Municipalities",
+      "mnCrud": "Edit Municipalities",
+      "municipalitiesCrud": "Edit Municipalities",
+      "patient": "Patient",
+      "ptSearch": "Patient",
+      "ptCrud": "Edit patient",
+      "ptVsSearch": "Patient",
+      "ptVsCrud": "Edit Patient",
+      "backoffice": "Backoffice",
+      "domain": "Domain",
+      "dmSearch": "Domains",
+      "dmCrud": "Edit Domain",
+      "subscriber": "Subscribers",
+      "sbSearch": "Subscribers",
+      "sbCrud": "Edit Subscribers",
+      "scheduler": "Schedulers",
+      "shSearch": "Schedulers",
+      "notify":"\u901A \u77E5",
+      "notifySearch": "\u641C \u7D22 \u5E94 \u7528 \u7A0B \u5E8F \u901A \u77E5",
+      "notifyCrud": "\u7F16 \u8F91 \u5E94 \u7528 \u7A0B \u5E8F \u901A \u77E5",
+      "doc&links": "\u6587 \u6863 \u548C \u94FE \u63A5",
+      "monitor": "\u6D4B \u8BD5 \u76D1 \u63A7",
+      "linksFhir": "Fhir \u94FE \u63A5",
+      "manual": "\u624B \u5DE5",
+      "changeLog": "\u66F4 \u6539 \u65E5 \u5FD7",
+      "color": "\u989C \u8272",
+      "theme": "\u6A21 \u677F",
+      "font": "\u5B57 \u5F62",
+      "undefined": "\u4F1A \u8BAE"
+    }
+  },
+  "item": {
+    "signin": {
+      "signin": "\u767B \u5165",
+      "login": "\u767B \u5F55",
+      "masterCode": "\u4E3B \u7801 \u6307 \u6570 2.0",
+      "username": "\u7528 \u6237 \u540D",
+      "password": "\u5BC6 \u7801"
+    },
+    "valueSet": {
+      "identifier": {
+        "label": "\u4EE3 \u7801"
+      },
+      "id": {
+        "label": "\u4EE3 \u7801"
+      },
+      "name": {
+        "label": "\u63CF \u8FF0"
+      },
+      "description": {
+        "label": "\u63CF \u8FF0"
+      },
+      "publisher": {
+        "label": "\u7F16 \u8F91"
+      },
+      "status": {
+        "label": "\u72B6 \u6001",
+        "draft": "\u7A3F",
+        "active": "\u4E3B \u52A8",
+        "retired": "\u9000 \u4F11"
+      },
+      "experimental": {
+        "label": "\u8BD5 \u9A8C"
+      },
+      "extensible": {
+        "label": "\u6269 \u5C55"
+      },
+      "system": {
+        "label": "\u7CFB \u7EDF"
+      },
+      "value": {
+        "label": "\u503C"
+      },
+      "version": {
+        "label": "\u7248 \u672C"
+      },
+      "requirements": {
+        "label": "\u8981 \u6C42"
+      },
+      "copyright": {
+        "label": "\u7248 \u6743"
+      },
+      "immutable": {
+        "label": "\u4E0D \u53D8"
+      },
+      "caseSensitive": {
+        "label": "\u533A \u5206 \u5927 \u5C0F \u5199"
+      },
+      "valuesetType": {
+        "label": "\u503C \u96C6"
+      },
+      "metadataType": {
+        "label": "\u7C7B \u578B \u5143 \u6570 \u636E"
+      },
+      "code": {
+        "label": "\u4EE3 \u7801"
+      },
+      "display": {
+        "label": "\u63CF \u8FF0"
+      },
+      "definition": {
+        "label": "\u6B63 \u5F0F \u5B9A \u4E49"
+      },
+      "tab": {
+        "dataValueSet": "\u503C \u96C6",
+        "concept": "\u6982 \u5FF5",
+        "metadata": "\u5143 \u6570 \u636E"
+      },
+      "toNotify": {
+        "label": "\u901A \u77E5"
+      },
+      "metadata": {
+        "dataElement": {
+          "label": "\u6570 \u636E \u5143 \u7D20"
+        },
+        "practitioner": {
+          "label": "\u4ECE \u4E1A"
+        },
+        "location": {
+          "label": "\u4F4D \u7F6E"
+        },
+        "organization": {
+          "label": "Organization"
+        },
+        "municipalities": {
+          "label": "Municipalities"
+        },
+        "medication": {
+          "label": "\u836F \u7269 \u6CBB \u7597"
+        }
+      },
+      "page": {
+        "vsSearch": {
+          "title": "\u641C \u7D22 \u503C \u0020 \u96C6"
+        },
+        "vsCrud": {
+          "titleAdd": "\u521B \u5EFA \u503C \u96C6",
+          "titleEdit": "\u4FEE \u6539 \u503C \u96C6"
+        },
+        "ccSearch": {
+          "title": "\u641C \u7D22 \u6982 \u5FF5"
+        },
+        "ccCrud": {
+          "titleAdd": "\u521B \u5EFA \u6982 \u5FF5",
+          "titleEdit": "\u4FEE \u6539 \u6982 \u5FF5",
+          "designationAdd": "\u6DFB \u52A0 \u6307 \u5B9A",
+          "designationDelete": "\u5220 \u9664 \u6307 \u5B9A"
+        }
+      },
+      "error": {
+        "search": "\u9519 \u8BEF \u7684 \u53D6 \u56DE \u503C \u96C6 \u540D \u5355",
+        "load": "\u9519 \u8BEF \u7684 \u53D6 \u56DE \u503C \u96C6",
+        "upload": "\u9519 \u8BEF \u7684 \u4E0A \u8F7D \u6587 \u4EF6",
+        "insert": "\u9519 \u8BEF \u7684 \u63D2 \u5165 \u503C \u96C6",
+        "update": "\u9519 \u8BEF \u7684 \u66F4 \u65B0 \u503C \u96C6",
+        "delete": "\u9519 \u8BEF \u7684 \u5220 \u9664 \u503C \u96C6",
+        "notify": "\u9519 \u8BEF \u901A \u77E5 \u503C \u96C6"
+      },
+      "success": {
+        "insert": "\u503C \u96C6 \u63D2 \u5165",
+        "update": "\u503C \u96C6 \u66F4 \u65B0",
+        "delete": "\u503C \u96C6 \u5220 \u9664",
+        "upload": "\u6587 \u4EF6 \u4E0A \u8F7D",
+        "notify": "\u901A \u77E5 \u8BA2 \u9605 \u6267 \u884C"
+      }
+    },
+    "dataElement": {
+      "identifier": {
+        "label": "\u4EE3 \u7801"
+      },
+      "id": {
+        "label": "\u4EE3 \u7801"
+      },
+      "name": {
+        "label": "\u63CF \u8FF0"
+      },
+      "description": {
+        "label": "\u63CF \u8FF0"
+      },
+      "publisher": {
+        "label": "\u7F16 \u8F91"
+      },
+      "status": {
+        "label": "\u72B6 \u6001"
+      },
+      "system": {
+        "label": "\u7CFB \u7EDF"
+      },
+      "value": {
+        "label": "\u503C"
+      },
+      "version": {
+        "label": "\u7248 \u672C"
+      },
+      "defaultValueString": {
+        "label": "\u9ED8 \u8BA4 \u503C"
+      },
+      "tab": {
+        "concept": "\u6982 \u5FF5",
+        "metadata": "\u7C7B \u578B \u5143 \u6570 \u636E"
+      },
+      "page": {
+        "deCrud": {
+          "titleAdd": "\u52A0 \u6570 \u636E \u5143 \u7D20",
+          "titleEdit": "\u7F16 \u8F91 \u6570 \u636E \u5143 \u7D20"
+        }
+      },
+      "error": {
+        "insert": "\u9519 \u8BEF \u7684 \u63D2 \u5165 \u6570 \u636E \u5143 \u7D20",
+        "update": "\u9519 \u8BEF \u7684 \u66F4 \u65B0 \u6570 \u636E \u5143 \u7D20",
+        "delete": "\u9519 \u8BEF \u7684 \u5220 \u9664 \u6570 \u636E \u5143 \u7D20"
+      },
+      "success": {
+        "insert": "\u6570 \u636E \u5143 \u7D20 \u63D2 \u5165",
+        "update": "\u6570 \u636E \u5143 \u7D20 \u66F4 \u65B0",
+        "delete": "\u6570 \u636E \u5143 \u7D20 \u5220 \u9664"
+      }
+    },
+    "practitioner": {
+      "identifier": {
+        "label": "\u4EE3 \u7801"
+      },
+      "fiscalCode": {
+        "label": "\u7A0E \u63A7 \u7801"
+      },
+      "codice": {
+        "label": "\u7801"
+      },
+      "id": {
+        "label": "\u4EE3 \u7801"
+      },
+      "name": {
+        "label": "\u63CF \u8FF0"
+      },
+      "nominative": {
+        "label": "\u4E3B \u683C"
+      },
+      "given": {
+        "label": "\u540D \u79F0"
+      },
+      "family": {
+        "label": "\u5BB6 \u4EBA"
+      },
+      "birthDate": {
+        "label": "\u51FA \u751F \u65E5 \u671F"
+      },
+      "gender": {
+        "label": "\u6027 \u522B",
+        "mele": "\u7537",
+        "female": "\u5973",
+        "other": "Other",
+        "unknown":"Unknown"
+      },
+      "description": {
+        "label": "\u63CF \u8FF0"
+      },
+      "system": {
+        "label": "\u7CFB \u7EDF"
+      },
+      "value": {
+        "label": "\u503C"
+      },
+      "address": {
+        "label": "\u4F4F \u5740",
+        "use": {
+          "label": "\u91C7 \u7528",
+          "birth": "\u5206 \u5A29",
+          "residence": "\u4F4F \u5B85",
+          "domicile": "\u4F4F \u6240"
+        }
+      },
+      "line": {
+        "label": "\u7EBF \u8DEF"
+      },
+      "city": {
+        "label": "\u5E02"
+      },
+      "state": {
+        "label": "\u6001"
+      },
+      "postalCode": {
+        "label": "\u90AE \u653F \u7F16 \u7801"
+      },
+      "department": {
+        "label": "\u90E8\u95E8"
+      },
+      "hospital": {
+        "label": "\u533B\u9662"
+      },
+      "country": {
+        "label": "\u56FD \u5BB6"
+      },
+      "telecom": {
+        "label": "\u7535 \u4FE1",
+        "system": {
+          "label": "\u7CFB \u7EDF",
+          "email": "\u7535 \u5B50 \u90AE \u4EF6",
+          "phone": "\u7535 \u8BDD",
+          "url": "\u5730 \u5740",
+          "fax": "\u4F20 \u771F"
+        },
+        "use": {
+          "label": "\u91C7 \u7528",
+          "home": "\u4E3B \u9875",
+          "work": "\u5DE5",
+          "mobile": "\u79FB \u52A8"
+        }
+      },
+      "practitionerRole": {
+        "label": "\u4EFB \u52A1"
+      },
+      "role": {
+        "label": "\u4EFB \u52A1",
+        "": "\u65E0 \u4F5C \u7528",
+        "doctor": "\u533B \u751F",
+        "nurse": "\u000A \u62A4 \u58EB",
+        "pharmacist": "\u000A \u836F \u5242 \u5E08",
+        "researcher": "\u7814 \u7A76 \u5458",
+        "teacher": "\u6559 \u5E08",
+        "ict": "\u4FE1 \u606F \u548C \u901A \u4FE1 \u6280 \u672F"
+      },
+      "specialty": {
+        "label": "\u4E13 \u4E1A",
+        "cardio": "\u5FC3",
+        "dent": "\u51F9\u75D5",
+        "dietary": "\u81B3 \u98DF",
+        "midw": "\u52A9 \u4EA7 \u58EB",
+        "sysarch": "\u7CFB \u7EDF \u95E8"
+      },
+      "communication": {
+        "label": "\u901A \u4FE1",
+        "text": {
+          "label": "\u6C49 \u8BED \u8BED \u8A00"
+        }
+      },
+      "coding": {
+        "label": "\u7F16 \u7801"
+      },
+      "text": {
+        "label": "\u6B63 \u6587"
+      },
+      "managingOrganization": {
+        "label": "\u7EC4 \u7EC7"
+      },
+      "location": {
+        "label": "\u4F4D \u7F6E",
+        "id": {
+          "label": "\u4EE3 \u7801"
+        }
+      },
+      "partOf": {
+        "label": "\u4F4D \u7F6E \u5355 \u65B9 \u9762"
+      },
+      "code": {
+        "label": "\u4EE3 \u7801"
+      },
+      "display": {
+        "label": "\u5C55 \u51FA"
+      },
+      "qualification": {
+        "label": "\u8D44 \u683C"
+      },
+      "startPeriod": {
+        "label": "\u542F \u52A8 \u65F6 \u95F4"
+      },
+      "endPeriod": {
+        "label": "\u671F \u672B"
+      },
+      "tab": {
+        "concept": "\u6982 \u5FF5",
+        "metadata": "\u7C7B \u578B \u5143 \u6570 \u636E"
+      },
+      "page": {
+        "practitionerCrud": {
+          "titleAdd": "\u63D2 \u5165 \u4ECE \u4E1A",
+          "titleEdit": "\u7F16 \u8F91 \u4ECE \u4E1A"
+        },
+        "practitionerSearch": {
+          "title": "\u641C \u7D22 \u4ECE \u4E1A \u8005"
+        },
+        "selectLocation": {
+          "title": "\u9009 \u62E9 \u4F4D \u7F6E"
+        }
+      },
+      "error": {
+        "load": "\u8D1F \u8F7D \u4ECE \u4E1A \u9519 \u8BEF",
+        "search": "\u5728 \u9009 \u5B9A \u7684 \u533B \u751F \u9519 \u8BEF",
+        "insert": "\u9519 \u8BEF \u7684 \u63D2 \u5165 \u4ECE \u4E1A",
+        "update": "\u9519 \u8BEF \u7684 \u66F4 \u65B0 \u4ECE \u4E1A",
+        "delete": "\u9519 \u8BEF \u7684 \u5220 \u9664 \u4ECE \u4E1A"
+      },
+      "success": {
+        "insert": "\u4ECE \u4E1A \u63D2 \u5165",
+        "update": "\u4ECE \u4E1A \u66F4 \u65B0",
+        "delete": "\u4ECE \u4E1A \u5220 \u9664"
+      }
+    },
+    "patient": {
+      "identifier": {
+        "label": "Identifier"
+      },
+      "fiscalCode": {
+        "label": "Fiscal Code"
+      },
+      "codice": {
+        "label": "Code"
+      },
+      "id": {
+        "label": "Id"
+      },
+      "given": {
+        "label": "Name"
+      },
+      "nominative": {
+        "label": "Nominative"
+      },
+      "family": {
+        "label": "Family"
+      },
+      "birthDate": {
+        "label": "Birth Date"
+      },
+      "birthPlace": {
+        "label": "Birth Place"
+      },
+      "gender": {
+        "label": "Sesso",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other",
+        "unknown": "Unknown"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "system": {
+        "": "",
+        "label": "System",
+        "other": "Other",
+        "idCard": "Id Card",
+        "socialNumber": "Social Number",
+        "x1v1Mpi": "MPI id",
+        "idInternal": "Internal id"
+      },
+      "x1v1Mpi": {
+        "label": "MPI id"
+      },
+      "maritalStatus": {
+        "label": "Marital Status",
+        "U": "Unmarried",
+        "A": "Annulled",
+        "D": "Divorced",
+        "I": "Interlocutory",
+        "L": "Legally Separated",
+        "M": "Married",
+        "P": "Polygamous",
+        "S": "Never Married",
+        "T": "Domestic partner",
+        "W": "Widowed"
+      },
+      "communication": {
+        "label": "Communication"
+      },
+      "value": {
+        "label": "Value"
+      },
+      "startPeriod": {
+        "label": "Start Period"
+      },
+      "endPeriod": {
+        "label": "End Period"
+      },
+      "address": {
+        "label": "Address",
+        "use": {
+          "label": "Use",
+          "birth": "Birth",
+          "residence": "Residence",
+          "domicile": "Domicile",
+          "home": "Home",
+          "work": "Work",
+          "temp": "Temp",
+          "old": "Old"
+        }
+      },
+      "line": {
+        "label": "Line"
+      },
+      "civic": {
+        "label": "n\u00B0 "
+      },
+      "city": {
+        "label": "City"
+      },
+      "state": {
+        "label": "State"
+      },
+      "postalCode": {
+        "label": "Postal Code"
+      },
+      "country": {
+        "label": "Country"
+      },
+      "telecom": {
+        "label": "Telecom",
+        "system": {
+          "label": "System",
+          "email": "Email",
+          "phone": "Phone",
+          "url": "Url",
+          "fax": "Fax"
+        },
+        "use": {
+          "label": "Use",
+          "home": "Home",
+          "work": "Work",
+          "mobile": "Mobile"
+        }
+      },
+      "page": {
+        "ptSearch": {
+          "title": "Search Patient"
+        },
+        "ptCrud": {
+          "titleAdd": "Create Patient",
+          "titleEdit": "Edit Patient",
+          "group": {
+            "primaryInformation": "Primary Information",
+            "identifiers": "Identifiers",
+            "legalAddress": "Legal Address",
+            "homeAddress": "Home Address",
+            "contacts": "Contacts"
+          }
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Patient",
+        "load": "Error on load Patient",
+        "insert": "Error on insert Patient",
+        "update": "Error on update Patient",
+        "delete": "Error on delete Patient"
+      },
+      "success": {
+        "insert": "Patient inserted",
+        "update": "Patient updated",
+        "delete": "Patient deleted"
+      }
+    },
+    "location": {
+      "identifier": {
+        "label": "\u4EE3 \u7801"
+      },
+      "system": {
+        "label": "\u7CFB \u7EDF"
+      },
+      "value": {
+        "label": "\u7CFB \u7EDF"
+      },
+      "name": {
+        "label": "\u63CF \u8FF0"
+      },
+      "description": {
+        "label": "\u63CF \u8FF0"
+      },
+      "code": {
+        "label": "\u4EE3 \u7801"
+      },
+      "mode": {
+        "label": "\u72B6 \u6001",
+        "instance": "\u5B9E \u4F8B",
+        "kind": "\u4EB2 \u5207"
+      },
+      "tab": {
+        "concept": "\u6982 \u5FF5",
+        "metadata": "\u5143 \u6570 \u636E"
+      },
+      "telecom": {
+        "label": "\u7535 \u4FE1",
+        "system": {
+          "label": "\u7CFB \u7EDF",
+          "email": "\u7535 \u5B50 \u90AE \u4EF6",
+          "phone": "\u7535 \u8BDD",
+          "url": "\u5730 \u5740",
+          "fax": "\u4F20 \u771F"
+        },
+        "use": {
+          "label": "\u91C7 \u7528",
+          "home": "\u5BB6",
+          "work": "\u5DE5",
+          "mobile": "\u79FB \u52A8"
+        },
+        "value": {
+          "label": "\u503C"
+        }
+      },
+      "address": {
+        "label": "\u4F4F \u5740",
+        "use": {
+          "label": "\u91C7 \u7528",
+          "home": "\u57FA \u7840",
+          "temp": "\u4E34 \u65F6"
+        },
+        "city": {
+          "label": "\u5E02"
+        },
+        "line": {
+          "label": "\u7EBF"
+        },
+        "country": {
+          "label": "\u56FD \u5BB6"
+        },
+        "state": {
+          "label": "\u6001"
+        },
+        "postalCode": {
+          "label": "\u90AE \u653F \u7F16 \u7801"
+        }
+      },
+      "position": {
+        "label": "\u4F4D\u7F6E",
+        "latitude": {
+          "label": "\u7EAC"
+        },
+        "longitude": {
+          "label": "\u7ECF \u5EA6"
+        },
+        "altitude": {
+          "label": "\u9AD8 \u5EA6"
+        }
+      },
+      "partOf": {
+        "label": "\u4F4D \u7F6E \u7684 \u90E8 \u5206"
+      },
+      "locationType": {
+        "hospital":"\u533B \u9662",
+        "label": "\u7269 \u7406 \u7C7B \u578B",
+        "anatIstPat": "\u75C5 \u7406 \u89E3 \u5256 \u5B66 \u548C \u7EC4 \u7EC7 \u5B66",
+        "card": "\u5FC3 \u810F \u75C5",
+        "chirArtSup": "\u4E0A \u80A2 \u624B \u672F",
+        "chirGen": "\u666E \u5916 \u79D1",
+        "diab": "\u7CD6 \u5C3F \u75C5",
+        "emat": "\u8840 \u6DB2 \u5B66",
+        "farma": "\u836F \u623F",
+        "gastr": "\u6D88 \u5316 \u5185 \u79D1",
+        "geri": "\u8001 \u5E74 \u75C5 \u5B66",
+        "labAna": "\u5B9E \u9A8C \u5BA4 \u5206 \u6790",
+        "lung": "\u957F \u671F \u62A4 \u7406"
+      },
+      "physicalType": {
+        "label": "\u7269 \u7406 \u7C7B \u578B",
+        "bu": "\u5927 \u53A6",
+        "wi": "\u7FFC",
+        "lvl": "\u7EA7 \u522B",
+        "co": "\u901A \u9053",
+        "ro": "\u623F",
+        "bd": "\u5E8A",
+        "ve": "\u5A92 \u4ECB \u7269",
+        "ho": "\u4E3B \u9875",
+        "ca": "\u529E \u516C \u5BA4",
+        "rd": "\u8DEF",
+        "jdn": "\u7BA1 \u8F96 \u6743",
+        "area": "\u8303 \u56F4"
+      },
+      "status": {
+        "label": "\u72B6 \u6001",
+        "": "Status",
+        "active": "\u4E3B \u52A8",
+        "suspended": "\u6682 \u505C",
+        "inactive": "\u975E \u6D3B \u52A8"
+      },
+      "page": {
+        "locationCrud": {
+          "titleAdd": "\u63D2 \u5165 \u4F4D \u7F6E",
+          "titleEdit": "\u63D2 \u5165 \u4F4D \u7F6E"
+        },
+        "locationSearch": {
+          "title": "\u641C \u7D22 \u4F4D \u7F6E"
+        },
+        "selectLocation": {
+          "title": " \u9009\u62E9 \u4F4D \u7F6E"
+        },
+        "departmentVsCrud": {
+          "titleAdd": "\u63D2 \u5165 \u90E8",
+          "titleEdit": "\u7F16 \u8F91 \u90E8"
+        },
+        "departmentVsSearch": {
+          "title": "\u641C \u7D22 \u90E8"
+        },
+        "hospitalVsCrud": {
+          "titleAdd": "\u63D2 \u5165 \u533B \u9662",
+          "titleEdit": "\u7F16 \u8F91 \u533B \u9662"
+        },
+        "hospitalVsSearch": {
+          "title": "\u641C \u7D22 \u533B \u9662"
+        }
+      },
+      "error": {
+        "search": "\u5728 \u68C0 \u7D22 \u5B9A \u4F4D \u8BEF \u5DEE",
+        "insert": "\u5728 \u63D2 \u5165 \u5B9A \u4F4D \u8BEF \u5DEE",
+        "update": "\u5728 \u66F4 \u65B0 \u5B9A \u4F4D \u8BEF \u5DEE",
+        "delete": "\u5728 \u5220 \u9664 \u5B9A \u4F4D \u8BEF \u5DEE"
+      },
+      "success": {
+        "insert": "\u4F4D \u7F6E \u63D2 \u5165",
+        "update": "\u4F4D \u7F6E \u66F4 \u65B0",
+        "delete": "\u4F4D \u7F6E \u5220 \u9664"
+      }
+    },
+    "conceptMap": {
+      "identifier": {
+        "label": "\u4EE3 \u7801"
+      },
+      "id": {
+        "label": "\u4EE3 \u7801"
+      },
+      "name": {
+        "label": "\u63CF \u8FF0"
+      },
+      "description": {
+        "label": "\u63CF \u8FF0"
+      },
+      "publisher": {
+        "label": "\u7F16 \u8F91"
+      },
+      "status": {
+        "label": "\u72B6 \u6001"
+      },
+      "experimental": {
+        "label": "\u8BD5 \u9A8C"
+      },
+      "system": {
+        "label": "\u7CFB \u7EDF"
+      },
+      "value": {
+        "label": "\u503C"
+      },
+      "sourceUri": {
+        "label": "\u8D44 \u6E90 \u503C \u96C6 "
+      },
+      "targetUri": {
+        "label": "\u503C \u96C6 \u503C \u96C6"
+      },
+      "sourceReference": {
+        "label": "\u8D44 \u6E90 \u7801 \u56FE"
+      },
+      "targetReference": {
+        "label": "\u503C \u96C6 \u7801 \u56FE"
+      },
+      "code": {
+        "label": "\u4EE3 \u7801"
+      },
+      "codeSystem": {
+        "label": "\u7CFB \u7EDF"
+      },
+      "page": {
+        "conceptMapSearch": {
+          "title": "\u641C \u7D22 \u503C \u96C6 ",
+          "select": "\u9009 \u62E9",
+          "conceptMap": "\u6982 \u5FF5 \u56FE",
+          "description": "\u63CF \u8FF0"
+        },
+        "conceptMapCrud": {
+          "titleAdd": "\u52A0 \u503C \u96C6 ",
+          "titleEdit": "\u7F16 \u8F91 \u503C \u96C6 "
+        },
+        "mcSearch": {
+          "title": "\u641C \u5730 \u56FE \u6982 \u5FF5"
+        },
+        "mcCrud": {
+          "titleAdd": "\u52A0 \u5730 \u56FE \u6982 \u5FF5",
+          "titleEdit": "\u7F16 \u8F91 \u5730 \u56FE \u6982 \u5FF5",
+          "elementAdd": "\u52A0 \u79F0 \u53F7",
+          "elementDelete": "\u5220 \u9664 \u79F0 \u53F7",
+          "refreshValueSet": "\u5237 \u65B0 \u503C \u96C6 ",
+          "searchValueSet": "\u641C \u503C \u96C6 ",
+          "sourceList": "\u8D44 \u6E90",
+          "targetList": "\u9776 \u6807",
+          "mapList": "\u56FE",
+          "deleteAllMap": "\u5220 \u9664 \u6240 \u6709"
+        }
+      },
+      "tab": {
+        "conceptMap": "\u6982 \u5FF5 \u56FE",
+        "mapConcept": "\u5730 \u56FE \u6982 \u5FF5"
+      },
+      "error": {
+        "search": "\u9519 \u8BEF \u7684 \u53D6 \u56DE \u6982 \u5FF5 \u56FE",
+        "load": "\u9519 \u8BEF \u7684 \u53D6 \u56DE \u6982 \u5FF5 \u56FE",
+        "insert": "\u9519 \u8BEF \u7684 \u63D2 \u5165 \u6982 \u5FF5 \u56FE",
+        "update": "\u9519 \u8BEF \u7684 \u66F4 \u65B0 \u6982 \u5FF5 \u56FE",
+        "delete": "\u9519 \u8BEF \u7684 \u5220 \u9664 \u6982 \u5FF5 \u56FE"
+      },
+      "success": {
+        "insert": "\u6982 \u5FF5 \u56FE \u63D2 \u5165",
+        "update": "\u6982 \u5FF5 \u56FE \u66F4 \u65B0",
+        "delete": "\u6982 \u5FF5 \u56FE \u5220 \u9664"
+      }
+    },
+    "notify": {
+      "code": {
+        "label": "\u4EE3 \u7801"
+      },
+      "description": {
+        "label": "\u63CF \u8FF0"
+      },
+      "page": {
+        "notifySearch": {
+          "title": "\u641C \u7D22 \u5E94 \u7528 \u7A0B \u5E8F \u901A \u77E5",
+          "select": "\u9009 \u62E9"
+        },
+        "notifyCrud": {
+          "title": "\u7F16 \u8F91 \u5E94 \u7528 \u7A0B \u5E8F \u901A \u77E5",
+          "titleAdd": "\u521B \u5EFA \u901A \u77E5",
+          "titleEdit": "\u7F16 \u8F91 \u901A \u77E5"
+        }
+      },
+      "error": {
+        "search": "\u800C \u641C \u7D22 \u5E94 \u7528 \u7A0B \u5E8F \u9519 \u8BEF",
+        "load": "\u9519 \u8BEF \u800C \u8F7D \u5165 \u5E94 \u7528",
+        "insert": "\u540C \u65F6 \u589E \u52A0 \u4E86 \u5E94 \u7528 \u7A0B \u5E8F \u9519 \u8BEF",
+        "update": "\u5728 \u66F4 \u65B0 \u5E94 \u7528 \u7A0B \u5E8F \u9519 \u8BEF",
+        "delete": "\u5728 \u5220 \u9664 \u5E94 \u7528 \u7A0B \u5E8F \u9519 \u8BEF"
+      },
+      "success": {
+        "insert": "\u5E94 \u7528 \u7A0B \u5E8F \u7684 \u63D2 \u4EF6 \u5B8C \u6210!",
+        "update": "\u5E94 \u7528 \u7A0B \u5E8F \u7684 \u66F4 \u65B0 \u5B8C \u6210!",
+        "delete": "\u5E94 \u7528 \u7A0B \u5E8F \u7684 \u5220 \u9664 \u5B8C \u6210!"
+      }
+    },
+    "organization": {
+      "code": {
+        "label": "Code"
+      },
+      "identifier": {
+        "label": "Identifier"
+      },
+      "system": {
+        "label": "System"
+      },
+      "value": {
+        "label": "Value"
+      },
+      "name": {
+        "label": "name"
+      },
+      "active": {
+        "label": "Active"
+      },
+      "address": {
+        "label": "Address",
+        "use": {
+          "label": "Use",
+          "birth": "Birth",
+          "residence": "Residence",
+          "domicile": "Domicile"
+        }
+      },
+      "line": {
+        "label": "Line"
+      },
+      "city": {
+        "label": "City"
+      },
+      "state": {
+        "label": "State"
+      },
+      "postalCode": {
+        "label": "Postal Code"
+      },
+      "country": {
+        "label": "Country"
+      },
+      "telecom": {
+        "label": "Telecom",
+        "system": {
+          "label": "System",
+          "email": "Email",
+          "phone": "Phone",
+          "url": "Url",
+          "fax": "Fax"
+        },
+        "use": {
+          "label": "Use",
+          "home": "Home",
+          "work": "Work",
+          "mobile": "Mobile"
+        }
+      },
+      "organizationType": {
+        "label": "Organization Type",
+        "prov": "Healthcare Provider",
+        "dept": "Hospital Department",
+        "team": "Organizational team",
+        "govt": "Government",
+        "ins": "Insurance Company",
+        "edu": "Educational Institute",
+        "reli": "Religious Institution"
+      },
+      "page": {
+        "orSearch": {
+          "title": "Search Organization"
+        },
+        "orCrud": {
+          "titleAdd": "Add Organization",
+          "titleEdit": "Edit Organization"
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Organization list.",
+        "load": "Error on load Organization.",
+        "insert": "Error on insert Organization.",
+        "update": "Error on update Organization.",
+        "delete": "Error on delete Organization."
+      },
+      "success": {
+        "insert": "Organization inserted.",
+        "update": "Organization updated.",
+        "delete": "Organization deleted."
+      }
+    },
+    "municipalities": {
+      "istat": {
+        "label": "Istat"
+      },
+      "cadastral": {
+        "label": "Cadastral"
+      },
+      "code": {
+        "label": "Code"
+      },
+      "name": {
+        "label": "Name"
+      },
+      "startPeriod": {
+        "label": "Start Period"
+      },
+      "endPeriod": {
+        "label": "End Period"
+      },
+      "district": {
+        "label": "District"
+      },
+      "postalCode": {
+        "label": "Postal Code"
+      },
+      "state": {
+        "label": "State"
+      },
+      "city": {
+        "label": "City"
+      },
+      "country": {
+        "label": "Country"
+      },
+      "page": {
+        "municipalitiesSearch": {
+          "title": "Find Municipalities"
+        },
+        "municipalitiesCrud": {
+          "titleAdd": "Add Municipalities",
+          "titleEdit": "Edit Municipalities"
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Municipalities list.",
+        "load": "Error on load Municipalities.",
+        "insert": "Error on insert Municipalities.",
+        "update": "Error on update Municipalities.",
+        "delete": "Error on delete Municipalities."
+      },
+      "success": {
+        "insert": "Municipalities inserted.",
+        "update": "Municipalities updated.",
+        "delete": "Municipalities deleted."
+      }
+    },
+    "domain": {
+      "domainid": {
+        "label": "Domain id"
+      },
+      "authority": {
+        "label": "Authority"
+      },
+      "root": {
+        "label": "Root"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "priority": {
+        "label": "Priority"
+      },
+      "typecode": {
+        "label": "Type Code"
+      },
+      "page": {
+        "dmSearch": {
+          "title": "List Domains"
+        },
+        "dmCrud": {
+          "titleAdd": "Add Domain",
+          "titleEdit": "Edit Domain"
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Domain list.",
+        "load": "Error on load Domain.",
+        "insert": "Error on insert Domain.",
+        "update": "Error on update Domain.",
+        "delete": "Error on delete Domain."
+      },
+      "success": {
+        "insert": "Domain inserted.",
+        "update": "Domain updated.",
+        "delete": "Domain deleted."
+      }
+    },
+    "subscriber": {
+      "id": {
+        "label": "Code id"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "eventindex": {
+        "label": "Event Index"
+      },
+      "endpoint": {
+        "label": "Endpoint"
+      },
+      "lastidEvent": {
+        "label": "n\u00B0"
+      },
+      "enqueuer": {
+        "label": "Enqueuer"
+      },
+      "sender": {
+        "label": "sender"
+      },
+      "page": {
+        "sbSearch": {
+          "title": "List Subscriber"
+        },
+        "sbCrud": {
+          "titleAdd": "Add Subscriber",
+          "titleEdit": "Edit Subscriber"
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Sunscriber list.",
+        "load": "Error on load Sunscriber.",
+        "insert": "Error on insert Sunscriber.",
+        "update": "Error on update Sunscriber.",
+        "delete": "Error on delete Sunscriber."
+      },
+      "success": {
+        "insert": "Sunscriber inserted.",
+        "update": "Sunscriber updated.",
+        "delete": "Sunscriber deleted."
+      }
+    },
+    "scheduler": {
+      "id": {
+        "label": "Code id"
+      },
+      "endpoint": {
+        "label": "Endpoint"
+      },
+      "lastidEvent": {
+        "label": "n\u00B0"
+      },
+      "enqueuer": {
+        "label": "Enqueuer"
+      },
+      "sender": {
+        "label": "Sender"
+      },
+      "page": {
+        "shSearch": {
+          "title": "List schedulers"
+        }
+      }
+    }
+  },
+  "button": {
+    "addParent": {
+      "title": "\u6DFB \u52A0 \u90E8 \u5206"
+    },
+    "deleteParent": {
+      "title": "\u5220 \u9664 \u680F \u76EE"
+    },
+    "add": {
+      "label": "\u521B \u5EFA",
+      "title": "\u521B \u5EFA"
+    },
+    "edit": {
+      "label": "\u4FEE \u6539",
+      "title": "\u4FEE \u6539"
+    },
+    "import": {
+      "label": "\u4ECE \u6587 \u4EF6 \u52A0 \u8F7D",
+      "title": "\u4ECE \u6587 \u4EF6 \u52A0 \u8F7D"
+    },
+    "search": {
+      "label": "\u641C \u7D22",
+      "title": "\u641C \u7D22"
+    },
+    "insert": {
+      "label": "\u6DFB \u52A0",
+      "title": "\u6DFB \u52A0"
+    },
+    "update": {
+      "label": "\u4FDD \u5B58",
+      "title": "\u4FDD \u5B58"
+    },
+    "delete": {
+      "label": "\u5220 \u9664",
+      "title": "\u5220 \u9664"
+    },
+    "deleteAll": {
+      "label": "\u5220 \u9664 \u6240 \u6709",
+      "title": "\u5220 \u9664 \u6240 \u6709 \u6982 \u5FF5 \u503C \u96C6"
+    },
+    "notify": {
+      "label": "\u901A \u77E5",
+      "title": "\u901A \u77E5"
+    },
+    "select": {
+      "label": "\u9009 \u62E9",
+      "title": "\u9009 \u62E9"
+    },
+    "new": {
+      "label": "\u65B0",
+      "title": "\u65B0"
+    },
+    "previous": {
+      "label": "<<",
+      "title": "\u4EE5 \u524D"
+    },
+    "next": {
+      "label": ">>",
+      "title": "\u4E0B \u4E00 \u4E2A"
+    },
+    "cancel": {
+      "label": "\u64A4 \u6D88",
+      "title": "\u64A4 \u6D88 \u624B \u672F"
+    },
+    "confirm": {
+      "label": "\u8BC1 \u5B9E",
+      "title": "\u8BC1 \u5B9E \u624B \u672F"
+    },
+    "close": {
+      "label": "\u4EB2 \u5BC6",
+      "title": "\u4EB2 \u5BC6 \u7A97 \u53E3"
+    },
+    "back": {
+      "label": "\u80CC \u90E8",
+      "title": "\u80CC \u90E8"
+    },
+    "gotoManual": {
+      "label": "\u5E2E \u5E2E \u6211",
+      "title": "\u53BB \u4F7F \u7528 \u624B \u518C"
+    },
+    "apply": {
+      "label": "\u8FD0 \u7528",
+      "title": "\u5E94 \u7528 \u4E0A \u7684 \u5B57 \u6BB5 \u6570 \u636E"
+    },
+    "details": {
+      "label": "Details",
+      "title": "View details"
+    },
+    "play": {
+      "label": "Play",
+      "title": "Play"
+    },
+    "pause": {
+      "label": "Pause",
+      "title": "Pause"
+    }
+  },
+  "structure": {
+    "splash": {
+      "welcome": "\u6B22 \u8FCE \u6765 \u5230 Mci 2.0 !",
+      "message": "\u70B9 \u51FB '\u5E2E \u5E2E \u6211' \u4F5C \u4E00 \u7B80 \u8981 \u4ECB \u7ECD \u8BE5 \u4EA7 \u54C1",
+      "noSplash": "\u9690 \u85CF \u6B64 \u7A97 \u53E3"
+    },
+    "userMenu": {
+      "settings": {
+        "label": "\u8BBE \u7F6E"
+      },
+      "help": {
+        "label": "\u5E2E \u5E2E \u6211 "
+      },
+      "logout": {
+        "label": "\u767B \u51FA"
+      },
+      "role": {
+        "OP": "Operator",
+        "ME": "Practitioner",
+        "UsersAdmins": "Admin"
+      }
+    },
+    "dashboard": {
+      "load": "\u5BF9 \u4EEA \u8868 \u677F \u52A0 \u8F7D \u6570 \u636E \u65F6 \u51FA \u9519 \u3002"
+    },
+    "confirmation": {
+      "confirmDelete": {
+        "label": "\u8BC1 \u5B9E \u5220 \u9664"
+      },
+      "messageDelete": {
+        "label": "\u4F60 \u4E00 \u5B9A \u8981 \u5220 \u9664 \u8FD9 \u4E2A \u5143 \u7D20 ?"
+      },
+      "confirmUpdate": {
+        "label": "\u786E \u8BA4 \u8986 \u76D6"
+      },
+      "messageUpdate": {
+        "label": "\u4F60 \u4E00 \u5B9A \u8981 \u8986 \u76D6 \u8FD9 \u4E9B \u88C5 \u8F7D \u7684 \u6570 \u636E \uFF1F?"
+      },
+      "confirmApplyGmap": {
+        "label": "\u786E \u8BA4 \u7533 \u8BF7"
+      },
+      "messageApplyGmap": {
+        "label": "\u5E94 \u7528 \u0047 \u004D \u0041 \u0050 \u7684 \u6570 \u636E \u6765 \u8986 \u76D6 \u73B0 \u6709 \u7684 \u3002 \u4F60 \u60F3 \u8986 \u76D6 \u7684 \u6570 \u636E \u5417 \uFF1F"
+      }
+    },
+    "formMessage": {
+      "valueRequired": "\u73B0 \u573A \u8981 \u6C42",
+      "fiscalCodeLenght": "\u9519 \u8BEF \u7684 \u957F \u5EA6 (16 \u5B57)",
+      "emailFormat": "\u4E0D \u5408 \u89C4 \u7535 \u90AE"
+    },
+    "upload": {
+      "drag&Drop": {
+        "label": "\u62D6 \u653E",
+        "title": "\u62D6 \u52A8 \u6587 \u4EF6"
+      },
+      "uploadFile": {
+        "title": "\u4E0A \u8F7D \u6587 \u4EF6"
+      },
+      "selectFile": {
+        "title": "\u9009 \u62E9"
+      },
+      "pause": {
+        "label": "\u4F11 \u6B62 \u7B26",
+        "title": "\u4F11 \u6B62 \u7B26 \u4E0A \u8F7D \u6587 \u4EF6"
+      },
+      "resume": {
+        "label": "\u7B80 \u5386",
+        "title": "\u7B80 \u5386 \u4E0A \u8F7D \u6587 \u4EF6"
+      },
+      "cancel": {
+        "label": "\u64A4 \u6D88",
+        "title": "\u64A4 \u6D88 \u4E0A \u8F7D \u6587 \u4EF6"
+      },
+      "retry": {
+        "label": "\u91CD \u8BD5",
+        "title": "\u91CD \u8BD5 \u4E0A \u8F7D \u6587 \u4EF6"
+      },
+      "upload": {
+        "label": "\u4ECE \u6587 \u4EF6 \u52A0 \u8F7D",
+        "title": "\u4ECE \u6587 \u4EF6 \u52A0 \u8F7D"
+      }
+    },
+    "search": {
+      "count": {
+        "label": "\u4E00 \u6392",
+        "title": "\u8FD4 \u56DE \u7684 \u884C \u6570"
+      },
+      "results": {
+        "label": "\u7ED3 \u679C",
+        "title": "\u53D1 \u73B0 \u884C \u6570",
+        "empty": "\u672A \u627E \u5230 \u503C \u96C6"
+      },
+      "sort": {
+        "label": "\u79CD \u7C7B",
+        "title": "\u6392 \u5E8F \u7ED3 \u679C",
+        "name": "\u63CF \u8FF0",
+        "identifier": "\u4EE3 \u7801",
+        "code": "\u4EE3 \u7801",
+        "display": "\u63CF \u8FF0",
+        "location": "\u4F4D \u7F6E",
+        "direction": {
+          "asc": "\u4F18 \u52BF",
+          "desc": "\u964D \u5E8F"
+        }
+      }
+    },
+    "toolBox": {
+      "downloadJson": "\u4E0B\u8F7D\u7684 Json",
+      "uploadJson": "\u8FDB\u53E3\u7684 Json",
+      "downloadLanguage": "\u4E0B\u8F7D\u8BED\u8A00",
+      "uploadLanguage": "\u5BFC\u5165\u8BED\u8A00",
+      "deleteAll": "\u5220\u9664\u6240\u6709"
+    },
+    "menu": {
+      "load": "\u9519 \u8BEF \u52A0 \u8F7D \u83DC \u5355"
+    },
+    "gui": {
+      "advanced": "\u9AD8\u7EA7",
+      "load": "\u9519 \u8BEF \u52A0 \u8F7D \u9996 \u9009 \u9879"
+    },
+    "language": {
+      "load": "\u9519 \u8BEF \u52A0 \u8F7D \u6C49 \u8BED \u8BED \u8A00"
+    },
+    "settings": {
+      "load": "\u9519 \u8BEF \u52A0 \u8F7D \u8BBE \u7F6E"
+    },
+    "utils": {
+      "load": "\u9519 \u8BEF \u52A0 \u8F7D \u516C \u7528 \u4E8B \u4E1A"
+    },
+    "fhir": {
+      "load": "\u9519\u8BEF\u52A0\u8F7D\u0046\u0048\u0049\u0052\u516C\u7528\u4E8B\u4E1A."
+    }
+  }
+}

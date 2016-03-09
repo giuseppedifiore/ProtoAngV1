@@ -1,0 +1,78 @@
+{
+  "state": {
+    "view": "view",
+    "find": "find",
+    "edit": "edit",
+    "add": "add",
+    "notify": "notify"
+  },
+  "action": {
+    "query": {
+      "value": "query",
+      "goBack": false
+    },
+    "get": {
+      "value": "get",
+      "goBack": false
+    },
+    "search": {
+      "value": "search",
+      "goBack": false
+    },
+    "select": {
+      "value": "select",
+      "goBack": false
+    },
+    "insert": {
+      "value": "insert",
+      "goBack": true
+    },
+    "update": {
+      "value": "update",
+      "goBack": false
+    },
+    "delete": {
+      "value": "delete",
+      "goBack": true
+    },
+    "deleteAll": {
+      "value": "delete",
+      "goBack": false,
+      "reload": true
+    },
+    "load": {
+      "value": "load",
+      "goBack": false
+    },
+    "upload": {
+      "value": "upload",
+      "goBack": true
+    },
+    "notify": {
+      "value": "notify",
+      "goBack": false
+    }
+  },
+  "messageLevel": {
+    "success": {
+      "color":"success",
+      "textColor": " text-success"
+    },
+    "alert": {
+      "color": "warning",
+      "textColor": " text-warning"
+    },
+    "error": {
+      "color": "danger",
+      "textColor": " text-danger"
+    },
+    "info": {
+      "color": "info",
+      "textColor": " text-info"
+    },
+    "debug": {
+      "color": "muted",
+      "textColor": " text-muted"
+    }
+  }
+}

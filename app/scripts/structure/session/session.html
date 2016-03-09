@@ -1,0 +1,33 @@
+<nav class="footer-toolbar pull-left" data-height="auto" data-size="8px" data-color="#ddd"
+     data-distance="0" ng-controller="sessionCtrl as sc">
+    <ul class="no-margin">
+        <li ng-repeat="item in sc.ss.getSessionObj().element track by $index" class="btn btn-block btn-sm"
+            ng-click="go(sc.ss.changeSession($index),item.label)"
+            ng-class="($index==sc.ss.getSessionObj().id) ? 'btn-color active' : 'btn-default'"
+            ng-style="{ '-webkit-filter': 'saturate('+($index==sc.ss.getSessionObj().id)*250+'deg)'}">
+            <div class=" deexEllipsis" ng-class="($index==sc.ss.getSessionObj().id)? 'fa-inverse' : 'color' ">
+                <a href title="{{'menu.item.'+(item.label || 'undefined') | translate}}">
+                    <i class=" pull-left fa {{item.icon}}"
+                       ng-class="($index==sc.ss.getSessionObj().id)? 'fa-inverse' : 'color' "></i>&nbsp;
+                <span class=" hidden-xs" ng-class="($index==sc.ss.getSessionObj().id)? 'fa-inverse' : 'color' ">
+                    <i class=" fa {{icon.delete.icon}}  pull-right"
+                       ng-hide="$index==sc.ss.getSessionObj().id"
+                       ng-click="sc.ss.dropSession($index)"
+                       title="{{'button.delete.title'|translate}}"></i>
+                    {{ 'menu.item.'+(item.label || 'undefined') | translate}}
+                 </span>
+                </a>
+            </div>
+        </li>
+        <li class="btn-block">
+            <a type="button" class="btn btn-default btn-sm"
+                    ng-click="sc.ss.cloneSession()"
+                    title="{{'button.add.title'|translate}}"><i class="fa color {{icon.add.icon}}"></i>
+            </a>
+            <a type="button" class="btn btn-default btn-sm"
+                    ng-click="sc.ss.dropAllSession($index)"
+                    title="{{'button.deleteAll.title'|translate}}"><i class="fa color {{icon.deleteAll.icon}} "></i>
+            </a>
+        </li>
+    </ul>
+</nav>

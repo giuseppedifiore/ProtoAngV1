@@ -1,0 +1,19 @@
+<a href data-toggle="dropdown" class="no-padding">
+    <hr class="mg-xs hidden-xs text-hide">
+                    <span class="fa fa-stack fa-lg">
+                        <i class="fa fa-stack-2x  fa-circle text-white"></i>
+                        <i class="fa fa-stack-1x  {{ icon.user.icon }} "></i>
+                     </span>
+</a>
+<ul class="dropdown-menu dropdown-menu-right mg-r-xs">
+    <li>
+        <a href ng-click=advancedGui();>{{'structure.userMenu.settings.label' | translate}} </a>
+    </li>
+    <li>
+        <a href ng-click="go('manual','manual')">{{'structure.userMenu.help.label' | translate}}</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+        <a href ng-click="mc.logout()">{{'structure.userMenu.logout.label' | translate}}</a>
+    </li>
+</ul>

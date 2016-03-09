@@ -1,0 +1,254 @@
+{
+  "connection": {
+    "serverFhirTest": "http://fhirtest.uhn.ca/baseDstu2",
+    "valueSetRest": "/ValueSet",
+    "dataElementRest": "/DataElement",
+    "practitionerRest": "/Practitioner",
+    "locationRest": "/Location",
+    "organizationRest": "/Organization",
+    "patientRest": "/Patient",
+    "conceptMapRest": "/ConceptMap",
+    "conceptRestUpload": "/ValueSet/upload",
+    "notifyRestFind": "/notify/find",
+    "notifyRestSubscribe": "/notify/subscribe",
+    "notifyRestValueSet": "/notify/ValueSet"
+  },
+  "toolBox": {
+    "vsCrud": {
+      "downloadJson": true
+    },
+    "ccSearch": {
+      "uploadConcepts": true,
+      "deleteAll": true
+    },
+    "languageVsSearch": {
+      "downloadLanguage": true,
+      "uploadLanguage": true
+    }
+  },
+  "default": {
+    "outh2": false,
+    "structureValueSet": {
+      "language": {
+        "id": "",
+        "system": "Dedalus_Mci",
+        "value": "Language Fhir Item"
+      }
+    },
+    "mciValueSet": {
+      "department": {
+        "id": "",
+        "system": "",
+        "value": ""
+      },
+      "hospital": {
+        "id": "",
+        "system": "",
+        "value": ""
+      },
+      "practitioner": {
+        "id": "",
+        "system": "",
+        "value": ""
+      }
+    },
+    "decodeLocation": {
+      "partOf": "hospital",
+      "_id": "hospital"
+    },
+    "search": {
+      "_count": 12,
+      "_maxPageSize": 10,
+      "_sort": {
+        "practitioner": {
+          "name": "name",
+          "identifier": "identifier",
+          "location": "location"
+        },
+        "location": {
+          "code": "code",
+          "display": "display"
+        }
+      },
+      "_ord": {
+        "asc": "asc",
+        "desc": "desc"
+      },
+      "result": {
+        "code": "-"
+      }
+    }
+  },
+  "getUser": {
+    "settings": {
+      "connection": {
+        "server": "http://10.11.52.33:8080",
+        "outh2": "/auth-server/proxy",
+        "fhir_prec": "/x1v1-fhir-service/fhir",
+        "fhir": "/x1v1-fhir-service1.2/fhir",
+        "service": "/x1v1-mci-service",
+        "mpi": {
+          "server": "http://10.18.159.70:8082",
+          "serverTest": "http://10.18.66.11:8080",
+          "service": "/x1v1-mpi/ui",
+          "domainRest":"/domains",
+          "schedulerRest": "/schedulers",
+          "subscriberRest": "/subscribers"
+
+        }
+      },
+      "_custom": {
+        "active": true,
+        "client": "GVM",
+        "outh2": false,
+        "mciValueSet": {
+          "department": {
+            "id": "10",
+            "system": "MPI",
+            "value": "Reparti"
+          },
+          "hospital": {
+            "id": "9",
+            "system": "MPI",
+            "value": "Ospedali"
+          },
+          "practitioner": {
+            "id": "1",
+            "system": "MPI",
+            "value": "Medici"
+          },
+          "municipalities": {
+            "id": "",
+            "system": "MPI",
+            "value": "Comuni"
+          }
+        },
+        "municipalities": {
+          "identifier": {
+            "system": {
+              "istat": "istat",
+              "cadastral": "cadastral"
+            }
+          }
+        },
+        "patient": {
+          "identifier": {
+            "system": {
+              "identifier": {
+                "idCard": {
+                  "label": "idCard",
+                  "system": "urn:oid:1.2.36.146.595.217.0.1",
+                  "type": {
+                    "coding": {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "PI"
+                    }
+                  },
+                  "text": "idCard"
+                },
+                "socialNumber": {
+                  "label": "socialNumber",
+                  "system": "urn:oid:0.1.2.3.4.5.6.7",
+                  "type": {
+                    "coding": {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "SS"
+                    },
+                    "text": "socialNumber"
+                  }
+                }
+              },
+              "x1v1Mpi": {
+                "x1v1Mpi": {
+                  "label": "x1v1Mpi",
+                  "system": "urn:oid:2.16.840.1.113883.2.9.3.12.4.1",
+                  "type": {
+                    "coding": {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "PI"
+                    },
+                    "text": "x1v1Mpi"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "search": {
+          "_count": 48,
+          "_sort": {
+            "practitioner": {
+              "name": "name",
+              "identifier": "'code'|",
+              "location": "location"
+            }
+          },
+          "result": {
+            "code": "codice"
+          }
+        },
+        "crud": {
+          "address": {
+            "country": {
+              "value": "Italia",
+              "visible": false
+            },
+            "line": {
+              "code": "birth",
+              "visible": false
+            }
+          },
+          "communication": {
+            "value": "Italiano",
+            "visible": false
+          },
+          "identifier": {
+            "system": {
+              "codice": {
+                "value": "Codice",
+                "visible": false
+              },
+              "fiscalCode": {
+                "value": "Fiscal Code",
+                "visible": false
+              }
+            }
+          },
+          "location": {
+            "mode": {
+              "value": "instance",
+              "visible": false
+            },
+            "status": {
+              "value": "active",
+              "visible": false
+            },
+            "type": {
+              "value": "hospital",
+              "visible": false
+            }
+          }
+        }
+      }
+    },
+    "roles": [
+      {
+        "role": "OP"
+
+      },
+      {
+        "role": "UsersAdmins"
+
+      },
+      {
+        "role": "ME"
+
+      }
+    ],
+    "user": {
+      "user": "NLDSRG65B23D612T",
+      "name": "User Name",
+      "family": "Family"
+    }
+  }
+}

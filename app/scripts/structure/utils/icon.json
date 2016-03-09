@@ -1,0 +1,288 @@
+{
+  "icon": {
+    "dashboard": {
+      "icon": "fa-tachometer",
+      "textColor": "color"
+    },
+    "desk": {
+      "icon": "fa-th",
+      "textColor": "color"
+    },
+    "user": {
+      "icon": "fa-user",
+      "textColor": "text-default"
+    },
+    "OP": {
+      "icon": "fa-user",
+      "textColor": "text-default"
+    },
+    "ME": {
+      "icon": "fa-user-md",
+      "textColor": "text-primary"
+    },
+    "UsersAdmins": {
+      "icon": "fa-key",
+      "textColor": "color"
+    },
+    "valueSet": {
+      "icon": "fa-th-list",
+      "textColor": "text-success"
+    },
+    "concept": {
+      "icon": "fa-indent",
+      "textColor": "text-success"
+    },
+    "resource": {
+      "icon": "fa-fire",
+      "textColor": "text-danger"
+    },
+    "conceptMap": {
+      "icon": "fa-arrows-h",
+      "textColor": "text-warning"
+    },
+    "notify": {
+      "icon": "fa-clock-o",
+      "textColor": "text-warning"
+    },
+    "notification": {
+      "icon": "fa-clock-o",
+      "textColor": "text-warning"
+    },
+    "dataElement": {
+      "icon": "fa-list-alt",
+      "textColor": "text-success"
+    },
+    "practitioner": {
+      "icon": "fa-user-md",
+      "textColor": "text-info"
+    },
+    "location": {
+      "icon": "fa-location-arrow",
+      "textColor": "text-danger"
+    },
+    "organization": {
+      "icon": "fa-sitemap",
+      "textColor": "text-info"
+    },
+    "municipalities": {
+      "icon": "fa-university",
+      "textColor": "text-info"
+    },
+    "patient": {
+      "icon": "fa-user",
+      "textColor": "text-info"
+    },
+    "backoffice": {
+      "icon": "fa-briefcase",
+      "textColor": "text-warning"
+    },
+    "domain": {
+      "icon": "fa-globe",
+      "textColor": "text-success"
+    },
+    "state": {
+      "started":{
+        "textColor": "text-success",
+        "operation":{
+            "action":"pause",
+            "icon": "fa-pause",
+            "textColor": "text-warning"}
+      },
+      "stopped":{
+        "textColor": "text-danger",
+        "operation":{
+          "action":"play",
+          "icon": "fa-play",
+          "textColor": "text-success"}
+      }
+    },
+    "subscriber": {
+      "icon": "fa-truck",
+      "textColor": "text-warning"
+    },
+    "scheduler": {
+      "icon": "fa-calendar",
+      "textColor": "text-warning"
+    },
+    "department": {
+      "icon": "fa-bed",
+      "textColor": "text-info"
+    },
+    "hospital": {
+      "icon": "fa-hospital-o",
+      "textColor": "text-info"
+    },
+    "doc&links": {
+      "icon": "fa-book",
+      "textColor": "color"
+    },
+    "language": {
+      "icon": "fa-globe",
+      "textColor": "text-success"
+    },
+    "color": {
+      "icon": "fa-paint-brush",
+      "textColor": "color"
+    },
+    "font": {
+      "icon": "fa-font",
+      "textColor": "text-info"
+    },
+    "theme": {
+      "icon": "fa-star",
+      "textColor": "text-warning"
+    },
+    "calendar": {
+      "icon": "fa-calendar-o"
+    },
+    "cmd": {
+      "icon": "fa-ellipsis-v"
+    },
+    "insert": {
+      "icon": "fa-plus"
+    },
+    "delete": {
+      "icon": "fa-times"
+    },
+    "deleteAll": {
+      "icon": "fa-trash"
+    },
+    "save": {
+      "icon": "fa-check"
+    },
+    "refresh": {
+      "icon": "fa-refresh"
+    },
+    "close": {
+      "icon": "fa-times"
+    },
+    "back": {
+      "icon": "fa-chevron-left"
+    },
+    "detail": {
+      "icon": "fa-chevron-right"
+    },
+    "add": {
+      "icon": "fa-plus"
+    },
+    "download": {
+      "icon": "fa-download"
+    },
+    "upload": {
+      "icon": "fa-upload"
+    },
+    "list": {
+      "icon": "fa-list"
+    },
+    "session": {
+      "icon": "fa-map-marker"
+    },
+    "card": {
+      "icon": "fa-th-large"
+    },
+    "search": {
+      "icon": "fa-search"
+    },
+    "prev": {
+      "icon": "fa-chevron-up"
+    },
+    "next": {
+      "icon": "fa-chevron-down"
+    },
+    "addParent": {
+      "icon": "fa-plus-circle"
+    },
+    "deleteParent": {
+      "icon": "fa-times-circle"
+    },
+    "resultDot": {
+      "icon": "fa-circle"
+    },
+    "lockElement": {
+      "icon": "fa-lock"
+    },
+    "unlockElement": {
+      "icon": "fa-unlock"
+    },
+    "phone": {
+      "icon": "fa-phone"
+    },
+    "contact": {
+      "icon": "fa-phone-square"
+    },
+    "email": {
+      "icon": "fa-envelope"
+    },
+    "url": {
+      "icon": "fa-globe"
+    },
+    "fax": {
+      "icon": "fa-fax"
+    },
+    "birth": {
+      "icon": "fa-birthday-cake"
+    },
+    "residence": {
+      "icon": "fa-home"
+    },
+    "domicile": {
+      "icon": "fa-map-marker"
+    },
+    "temp": {
+      "icon": "fa-map-marker"
+    },
+    "home": {
+      "icon": "fa-home"
+    },
+    "work": {
+      "icon": "fa-industry"
+    },
+    "desktop": {
+      "icon": "fa-desktop"
+    },
+    "table": {
+      "icon": "fatable"
+    },
+    "mobile": {
+      "icon": "fa-mobile"
+    },
+    "settings": {
+      "icon": "fa-cog"
+    },
+    "advanced": {
+      "icon": "fa-cogs"
+    },
+    "collapse": {
+      "icon": "fa-chevron-up"
+    },
+    "expand": {
+      "icon": "fa-chevron-down"
+    },
+    "desc": {
+      "icon": "fa-sort-desc"
+    },
+    "asc": {
+      "icon": "fa-sort-asc"
+    },
+    "M": {
+      "icon": "fa-mars",
+      "textColor": "text-info"
+    },
+    "F": {
+      "icon": "fa-venus",
+      "textColor": "text-danger"
+    },
+    "male": {
+      "icon": "fa-mars",
+      "textColor": "text-info"
+    },
+    "female": {
+      "icon": "fa-venus",
+      "textColor": "text-danger"
+    },
+    "key": {
+      "icon": "fa-key",
+      "textColor": "color"
+    }
+  }
+}

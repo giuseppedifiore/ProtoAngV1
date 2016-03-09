@@ -1,0 +1,1385 @@
+{
+  "menu": {
+    "item": {
+      "signin": "تسجيل الدخول",
+      "admin": "مسؤول",
+      "user": "المستخدم",
+      "home": "منزل",
+      "desk": "مكتب",
+      "dashboard": "لوحة أجهزة القياس",
+      "language": "اللغات",
+      "languageVsSearch": "Find Language",
+      "languageVsCrud": "Edit Language",
+      "valueSet": "\u0627\u0644\u0642\u064A\u0645\u0629\u0020\u0627\u0644\u0645\u062D\u062F\u062F\u0629",
+      "vsSearch": "\u0625\u062F\u0627\u0631\u0629\u0020\u0645\u062C\u0645\u0648\u0639\u0629\u0020\u0627\u0644\u0642\u064A\u0645\u0629\u0020\u0627\u0644\u0645\u062D\u062F\u062F\u0629",
+      "vsCrud": "Edit value set",
+      "ccSearch": "Manage Concept",
+      "ccCrud": "Edit Concept",
+      "dataElement": "\u0639\u0646\u0627\u0635\u0631\u0020\u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+      "deCrud": "Edit Data element",
+      "practitioner": "\u0628\u0627\u0631\u0643\u062A\u064A\u0648\u0646\u064A\u0631",
+      "practitionerCrud": "Edit Practitioner",
+      "practitionerSearch": "Find Practitioner",
+      "location": "Locations",
+      "locationSearch": "Locations",
+      "locationCrud": "Edit Location",
+      "locationVsSearch": "Find Location",
+      "department": "Departments",
+      "departmentSearch": "Departments",
+      "departmentCrud": "Edit Department",
+      "hospital": "Hospitals",
+      "hospitalSearch": "Hospitals",
+      "hospitalCrud": "Edit hospital",
+      "conceptMap": "\u062E\u0631\u064A\u0637\u0629\u0020\u0627\u0644\u0645\u0641\u0647\u0648\u0645",
+      "cmSearch": "\u0625\u062F\u0627\u0631\u0629\u0020\u0631\u0633\u0645\u0020\u0627\u0644\u062E\u0631\u0627\u0626\u0637",
+      "cmCrud": "Edit mapping",
+      "mcCrud": "Edit map Concept",
+      "organization": "Organization",
+      "orSearch": "Organization",
+      "orCrud": "Modifica Organization",
+      "orVsSearch": "Municipalities",
+      "municipalities": "Municipalities",
+      "mnSearch": "Municipalities",
+      "mnCrud": "Edit Municipalities",
+      "municipalitiesCrud": "Edit Municipalities",
+      "patient": "المريض",
+      "ptSearch": "المريض",
+      "ptCrud": "تحرير المريض",
+      "ptVsSearch": "البحث عن المريض",
+      "ptVsCrud": "تحرير المريض",
+      "backoffice": "Backoffice",
+      "domain": "Domain",
+      "dmSearch": "Domains",
+      "dmCrud": "Edit Domain",
+      "subscriber": "Subscribers",
+      "sbSearch": "Subscribers",
+      "sbCrud": "Edit Subscribers",
+      "scheduler": "Schedulers",
+      "shSearch": "Schedulers",
+      "notify": "\u0627\u0644\u0627\u0634\u0639\u0627\u0631\u0627\u062A",
+      "notifySearch": "Find Application",
+      "notifyCrud": "Edit Application",
+      "doc&links": "وثائق وروابط",
+      "monitor": "Test Monitor",
+      "linksFhir": "Fhir روابط",
+      "manual": "كتيب",
+      "changeLog": "غير المفتاح",
+      "color": "الألوان",
+      "theme": "موضوع",
+      "font": "الخطوط",
+      "undefined": "الدورة"
+    }
+  },
+  "item": {
+    "signin": {
+      "signin": "تسجيل الدخول",
+      "login": "تسجيل الدخول",
+      "masterCode": "Master Patient Index 2.0",
+      "username": "اسم االمستخدم",
+      "password": "الرمز السري"
+    },
+    "valueSet": {
+      "identifier": {
+        "label": "Identifier"
+      },
+      "id": {
+        "label": "Id"
+      },
+      "name": {
+        "label": "Name"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "publisher": {
+        "label": "Publisher"
+      },
+      "status": {
+        "label": "Status",
+        "draft": "Draft",
+        "active": "Active",
+        "retired": "Retired"
+      },
+      "experimental": {
+        "label": "Experimental"
+      },
+      "extensible": {
+        "label": "Extensible"
+      },
+      "system": {
+        "label": "System"
+      },
+      "value": {
+        "label": "Value"
+      },
+      "version": {
+        "label": "Version"
+      },
+      "caseSensitive": {
+        "label": "Case Sensitive"
+      },
+      "valuesetType": {
+        "label": "Valueset type"
+      },
+      "metadataType": {
+        "label": "Metadata type"
+      },
+      "code": {
+        "label": "Codice"
+      },
+      "display": {
+        "label": "Description"
+      },
+      "definition": {
+        "label": "Formal definition"
+      },
+      "requirements": {
+        "label": "Requirements"
+      },
+      "copyright": {
+        "label": "Copyright"
+      },
+      "immutable": {
+        "label": "Immutable"
+      },
+      "tab": {
+        "dataValueSet": "Value set data",
+        "concept": "Concept",
+        "metadata": "Metadata"
+      },
+      "toNotify": {
+        "label": "to Notify"
+      },
+      "metadata": {
+        "dataElement": {
+          "label": "dataElement"
+        },
+        "practitioner": {
+          "label": "practitioner"
+        },
+        "location": {
+          "label": "location"
+        },
+        "organization": {
+          "label": "Organization"
+        },
+        "municipalities": {
+          "label": "Municipalities"
+        },
+        "medication": {
+          "label": "Medication"
+        }
+      },
+      "page": {
+        "vsSearch": {
+          "title": "Find Value set"
+        },
+        "vsCrud": {
+          "titleAdd": "Add Value set",
+          "titleEdit": "Edit Value set"
+        },
+        "ccSearch": {
+          "title": "Find Concepts"
+        },
+        "ccCrud": {
+          "titleAdd": "Add Concepts",
+          "titleEdit": "Edit Concepts",
+          "designationAdd": "Add Designation",
+          "designationDelete": "Delete Designation"
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Valueset list.",
+        "load": "Error on retrieve Valueset.",
+        "upload": "Error on upload file.",
+        "insert": "Error on insert Valueset.",
+        "update": "Error on update ValueSet.",
+        "delete": "Error on delete ValueSet.",
+        "notify": "Error on notify ValueSet."
+      },
+      "success": {
+        "insert": "ValueSet inserted.",
+        "update": "ValueSet updated.",
+        "delete": "ValueSet deleted.",
+        "upload": "File uploaded.",
+        "notify": "Notify subscription executed."
+      }
+    },
+    "dataElement": {
+      "identifier": {
+        "label": "Identifier"
+      },
+      "id": {
+        "label": "Id"
+      },
+      "name": {
+        "label": "Name"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "publisher": {
+        "label": "Publisher"
+      },
+      "status": {
+        "label": "Status"
+      },
+      "system": {
+        "label": "System"
+      },
+      "value": {
+        "label": "Value"
+      },
+      "version": {
+        "label": "Version"
+      },
+      "defaultValueString": {
+        "label": "Default value"
+      },
+      "tab": {
+        "concept": "Concept",
+        "metadata": "Metadata"
+      },
+      "page": {
+        "deCrud": {
+          "titleAdd": "Add Data Element",
+          "titleEdit": "Edit Data Element"
+        }
+      },
+      "error": {
+        "insert": "Error on insert Data Element.",
+        "update": "Error on update Data Element.",
+        "delete": "Error on delete Data Element."
+      },
+      "success": {
+        "insert": "Data Element inserted.",
+        "update": "Data Element updated.",
+        "delete": "Data Element deleted."
+      }
+    },
+    "practitioner": {
+      "identifier": {
+        "label": "Identifier"
+      },
+      "fiscalCode": {
+        "label": "Fiscal code"
+      },
+      "codice": {
+        "label": "Code"
+      },
+      "id": {
+        "label": "Id"
+      },
+      "name": {
+        "label": "Name"
+      },
+      "nominative": {
+        "label": "Nominative"
+      },
+      "given": {
+        "label": "Given"
+      },
+      "family": {
+        "label": "Family"
+      },
+      "birthDate": {
+        "label": "Birthdate"
+      },
+      "gender": {
+        "label": "Gender",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other",
+        "unknown": "Unknown"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "system": {
+        "label": "System"
+      },
+      "value": {
+        "label": "Value"
+      },
+      "address": {
+        "label": "Address",
+        "use": {
+          "label": "Place",
+          "birth": "Birth",
+          "residence": "Residence",
+          "domicile": "Domicile"
+        }
+      },
+      "line": {
+        "label": "Line"
+      },
+      "city": {
+        "label": "City"
+      },
+      "state": {
+        "label": "State"
+      },
+      "postalCode": {
+        "label": "Postal code"
+      },
+      "department": {
+        "label": "Department"
+      },
+      "hospital": {
+        "label": "Hospital"
+      },
+      "country": {
+        "label": "Country"
+      },
+      "telecom": {
+        "label": "Telecom",
+        "system": {
+          "label": "system",
+          "email": "Email",
+          "phone": "Phone",
+          "url": "Url",
+          "fax": "Fax"
+        },
+        "use": {
+          "label": "use",
+          "home": "Home",
+          "work": "Work",
+          "mobile": "Mobile"
+        }
+      },
+      "practitionerRole": {
+        "label": "Role"
+      },
+      "role": {
+        "label": "Role",
+        "": "No role",
+        "doctor": "Doctor",
+        "nurse": "Nurse",
+        "pharmacist": "Pharmacist",
+        "researcher": "Researcher",
+        "teacher": "Teacher",
+        "ict": "ICT"
+      },
+      "specialty": {
+        "label": "Specialty",
+        "cardio": "Cardio",
+        "dent": "Dent",
+        "dietary": "Dietary",
+        "midw": "Midwife",
+        "sysarch": "System Arch"
+      },
+      "communication": {
+        "label": "Communication",
+        "text": {
+          "label": "Language"
+        }
+      },
+      "coding": {
+        "label": "Coding"
+      },
+      "text": {
+        "label": "Text"
+      },
+      "managingOrganization": {
+        "label": "Organization"
+      },
+      "location": {
+        "label": "Location",
+        "id": {
+          "label": "Identifier"
+        }
+      },
+      "partOf": {
+        "label": "Part of location"
+      },
+      "code": {
+        "label": "Code"
+      },
+      "display": {
+        "label": "Display"
+      },
+      "qualification": {
+        "label": "Qualification"
+      },
+      "startPeriod": {
+        "label": "Start period"
+      },
+      "endPeriod": {
+        "label": "End period"
+      },
+      "tab": {
+        "concept": "Concept",
+        "metadata": "Metadata"
+      },
+      "page": {
+        "practitionerCrud": {
+          "titleAdd": "Insert Practitioner",
+          "titleEdit": "Edit Practitioner"
+        },
+        "practitionerSearch": {
+          "title": "Search Practitioner"
+        },
+        "selectLocation": {
+          "title": "Select Location"
+        }
+      },
+      "error": {
+        "load": "Error on load Practitioner",
+        "search": "Error on selected Practitioner",
+        "insert": "Error on insert Practitioner",
+        "update": "Error on update Practiioner",
+        "delete": "Error on delete Practitioner"
+      },
+      "success": {
+        "insert": "Practitioner inserted",
+        "update": "Practitioner updated",
+        "delete": "Practitioner deleted"
+      }
+    },
+    "patient": {
+      "identifier": {
+        "label": "معرف"
+      },
+      "fiscalCode": {
+        "label": "قانون الضرائب"
+      },
+      "codice": {
+        "label": "رمز"
+      },
+      "code": {
+        "label": "رمز"
+      },
+      "id": {
+        "label": "ID"
+      },
+      "given": {
+        "label": "معطى"
+      },
+      "nominative": {
+        "label": "الاسم المعط"
+      },
+      "family": {
+        "label": "عائلة"
+      },
+      "birthDate": {
+        "label": "تاريخ الميلاد"
+      },
+      "born": {
+        "label": "من مواليد"
+      },
+      "birthPlace": {
+        "label": "Birth Place"
+      },
+      "gender": {
+        "label": "جنس",
+        "male": "ذكر",
+        "female": "أنثى",
+        "other": "آخر",
+        "unknown": "غير معروف"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "system": {
+        "": "",
+        "label": "نظام",
+        "other": "Other",
+        "idCard": "بطاقة الهوية",
+        "socialNumber": "عدد الاجتماعي",
+        "x1v1Mpi": "MPI id",
+        "idInternal": "Internal id",
+        "fiscalCode": "قانون الضرائب",
+        "healthInsuranceCard": "بطاقة التأمين الصحي",
+        "stp": "Stp",
+        "team": "الفريق"
+      },
+      "x1v1Mpi": {
+        "label": "MPI id"
+      },
+      "maritalStatus": {
+        "label": "Marital Status",
+        "U": "Unmarried",
+        "A": "Annulled",
+        "D": "Divorced",
+        "I": "Interlocutory",
+        "L": "Legally Separated",
+        "M": "Married",
+        "P": "Polygamous",
+        "S": "Never Married",
+        "T": "Domestic partner",
+        "W": "Widowed"
+      },
+      "communication": {
+        "label": "الاتصالات"
+      },
+      "value": {
+        "label": "القيمة"
+      },
+      "startPeriod": {
+        "label": "فترة بدء"
+      },
+      "endPeriod": {
+        "label": "نهاية الفترة"
+      },
+      "address": {
+        "label": "العنوان",
+        "use": {
+          "label": "مكان",
+          "birth": "Birth",
+          "residence": "Residence",
+          "domicile": "Domicile",
+          "home": "الصفحة الرئيسية",
+          "work": "عمل",
+          "temp": "مؤقت",
+          "old": "Old"
+        }
+      },
+      "line": {
+        "label": "الخط"
+      },
+      "civic": {
+        "label": "n\u00B0 "
+      },
+      "city": {
+        "label": "الحي"
+      },
+      "state": {
+        "label": "الولاية"
+      },
+      "postalCode": {
+        "label": "الرمز البريدي"
+      },
+      "country": {
+        "label": "بلد"
+      },
+      "telecom": {
+        "label": "الاتصالات",
+        "system": {
+          "label": "نظام",
+          "email": "البريد الإلكتروني",
+          "phone": "الهاتف",
+          "url": "رابط",
+          "fax": "فاكس",
+          "pager": "جهاز إشعار"
+        },
+        "use": {
+          "label": "استخدام",
+          "home": "منزل",
+          "work": "عمل",
+          "mobile": "التليفون المحمول",
+          "temp": "مؤقت",
+          "old": "قديم"
+        }
+      },
+      "page": {
+        "ptSearch": {
+          "title": "بحث مريض"
+        },
+        "ptCrud": {
+          "titleAdd": "إدراج المريض",
+          "titleEdit": "تحرير المريض",
+          "group": {
+            "primaryInformation": "Primary Information",
+            "identifiers": "Identifiers",
+            "legalAddress": "Legal Address",
+            "homeAddress": "Home Address",
+            "contacts": "Contacts"
+          }
+        }
+      },
+      "error": {
+        "load": "خطأ في تحميل المريض",
+        "search": "خطأ في اختيار المريض",
+        "insert": "خطأ في ادخال المريض",
+        "update": "خطأ في تحديث المريض",
+        "delete": "خطأ في حذف المريض"
+      },
+      "success": {
+        "insert": "المريض مدرج",
+        "update": "تحديث المريض",
+        "delete": "حذف المريض"
+      }
+    },
+    "location": {
+      "identifier": {
+        "label": "Identifier"
+      },
+      "system": {
+        "label": "System"
+      },
+      "value": {
+        "label": "Value"
+      },
+      "name": {
+        "label": "Name"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "code": {
+        "label": "Code"
+      },
+      "mode": {
+        "label": "Mode",
+        "instance": "Instance",
+        "kind": "Kind"
+      },
+      "tab": {
+        "concept": "Concept",
+        "metadata": "Metadata"
+      },
+      "telecom": {
+        "label": "Telecom",
+        "system": {
+          "label": "System",
+          "email": "Email",
+          "phone": "Phone",
+          "url": "Url",
+          "fax": "Fax"
+        },
+        "use": {
+          "label": "Use",
+          "home": "Home",
+          "work": "Work",
+          "mobile": "Mobile"
+        },
+        "value": {
+          "label": "Value"
+        }
+      },
+      "address": {
+        "label": "Address",
+        "use": {
+          "label": "Type",
+          "home": "Base",
+          "temp": "Temporary"
+        },
+        "city": {
+          "label": "City"
+        },
+        "line": {
+          "label": "Line"
+        },
+        "country": {
+          "label": "Country"
+        },
+        "state": {
+          "label": "State"
+        },
+        "postalCode": {
+          "label": "Postal Code"
+        }
+      },
+      "position": {
+        "label": "Posizion",
+        "latitude": {
+          "label": "Latitude"
+        },
+        "longitude": {
+          "label": "Longitude"
+        },
+        "altitude": {
+          "label": "Altitude"
+        }
+      },
+      "partOf": {
+        "label": "Part of location"
+      },
+      "locationType": {
+        "label": "Location Type",
+        "hospital": "Hospital",
+        "anatIstPat": "Pathological Anatomy and Histology",
+        "card": "Cardiology",
+        "chirArtSup": "Upper Limb Surgery",
+        "chirGen": "General Surgery",
+        "diab": "Diabetology",
+        "emat": "Hematology",
+        "farma": "Pharmacy",
+        "gastr": "Gastroenterology",
+        "geri": "Geriatrics",
+        "labAna": "Laboratory analysis",
+        "lung": "Long-term care"
+      },
+      "physicalType": {
+        "label": "Physical Type",
+        "bu": "Building",
+        "wi": "Wing",
+        "lvl": "Level",
+        "co": "Aisle",
+        "ro": "Room",
+        "bd": "Bed",
+        "ve": "Vehicle",
+        "ho": "Home",
+        "ca": "Cabinet",
+        "rd": "Road",
+        "jdn": "Jurisdiction",
+        "area": "Area"
+      },
+      "status": {
+        "label": "Status",
+        "": "Stato",
+        "active": "Active",
+        "suspended": "Suspended",
+        "inactive": "Inactive"
+      },
+      "page": {
+        "locationCrud": {
+          "titleAdd": "Insert Location",
+          "titleEdit": "Edit Location"
+        },
+        "locationSearch": {
+          "title": "Search Location"
+        },
+        "selectLocation": {
+          "title": "Select Location"
+        },
+        "departmentVsCrud": {
+          "titleAdd": "Insert Department",
+          "titleEdit": "Edit Department"
+        },
+        "departmentVsSearch": {
+          "title": "Search Department"
+        },
+        "hospitalVsCrud": {
+          "titleAdd": "Insert Hospital",
+          "titleEdit": "Edit Hospital"
+        },
+        "hospitalVsSearch": {
+          "title": "Search Hospital"
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Location",
+        "insert": "Error on insert Location",
+        "update": "Error on update Location",
+        "delete": "Error on delete Location"
+      },
+      "success": {
+        "insert": "Location inserted",
+        "update": "Location updated",
+        "delete": "Location deleted"
+      }
+    },
+    "conceptMap": {
+      "identifier": {
+        "label": "Identifier"
+      },
+      "id": {
+        "label": "Id"
+      },
+      "name": {
+        "label": "Name"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "publisher": {
+        "label": "Publisher"
+      },
+      "status": {
+        "label": "Status"
+      },
+      "experimental": {
+        "label": "Experimental"
+      },
+      "system": {
+        "label": "System"
+      },
+      "value": {
+        "label": "Value"
+      },
+      "sourceUri": {
+        "label": "Source ValueSet "
+      },
+      "targetUri": {
+        "label": "ValueSet Destination"
+      },
+      "sourceReference": {
+        "label": "Source Code to map"
+      },
+      "targetReference": {
+        "label": "Target Code to map"
+      },
+      "code": {
+        "label": "Code"
+      },
+      "codeSystem": {
+        "label": "Code system"
+      },
+      "page": {
+        "cmSearch": {
+          "title": "Find Value set",
+          "select": "Select",
+          "conceptMap": "Concept Map",
+          "description": "Description"
+        },
+        "cmCrud": {
+          "titleAdd": "Add Value set",
+          "titleEdit": "Edit Value set"
+        },
+        "mcSearch": {
+          "title": "Search Map Concepts"
+        },
+        "mcCrud": {
+          "titleAdd": "Add Map Concepts",
+          "titleEdit": "Edit Map Concepts",
+          "elementAdd": "Add Designation",
+          "elementDelete": "Delete Designation",
+          "refreshValueSet": "Refresh Value Set",
+          "searchValueSet": "Search Value Set",
+          "sourceList": "Source",
+          "targetList": "Target",
+          "mapList": "Map",
+          "deleteAllMap": "Delete all mapped"
+        }
+      },
+      "tab": {
+        "conceptMap": "Concept Map",
+        "mapConcept": "Map Concept"
+      },
+      "error": {
+        "search": "Error on retrieve Concept Map list.",
+        "load": "Error on load Concept Map.",
+        "insert": "Error on insert Concept Map.",
+        "update": "Error on update Concept Map.",
+        "delete": "Error on delete Concept Map."
+      },
+      "success": {
+        "insert": "Concept Map inserted.",
+        "update": "Concept Map updated.",
+        "delete": "Concept Map deleted."
+      }
+    },
+    "notify": {
+      "code": {
+        "label": "Code"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "page": {
+        "notifySearch": {
+          "title": "Search Application to notify",
+          "select": "select"
+        },
+        "notifyCrud": {
+          "title": "Edit Application to notify",
+          "titleAdd": "Create Notify",
+          "titleEdit": "Edit Notify"
+        }
+      },
+      "error": {
+        "search": "Error while searching Aplication",
+        "load": "Error while loading Application.",
+        "insert": "Error while adding Application",
+        "update": "Error while updating Application",
+        "delete": "Error while deleting Application"
+      },
+      "success": {
+        "insert": "Application's insert is completed!",
+        "update": "Application's update is completed!",
+        "delete": "Application's delete is completed!"
+      }
+    },
+    "organization": {
+      "code": {
+        "label": "Code"
+      },
+      "identifier": {
+        "label": "Identifier"
+      },
+      "system": {
+        "label": "System"
+      },
+      "value": {
+        "label": "Value"
+      },
+      "name": {
+        "label": "name"
+      },
+      "active": {
+        "label": "Active"
+      },
+      "address": {
+        "label": "Address",
+        "use": {
+          "label": "Use",
+          "birth": "Birth",
+          "residence": "Residence",
+          "domicile": "Domicile"
+        }
+      },
+      "line": {
+        "label": "Line"
+      },
+      "city": {
+        "label": "City"
+      },
+      "state": {
+        "label": "State"
+      },
+      "postalCode": {
+        "label": "Postal Code"
+      },
+      "country": {
+        "label": "Country"
+      },
+      "telecom": {
+        "label": "Telecom",
+        "system": {
+          "label": "System",
+          "email": "Email",
+          "phone": "Phone",
+          "url": "Url",
+          "fax": "Fax"
+        },
+        "use": {
+          "label": "Use",
+          "home": "Home",
+          "work": "Work",
+          "mobile": "Mobile"
+        }
+      },
+      "organizationType": {
+        "label": "Organization Type",
+        "prov": "Healthcare Provider",
+        "dept": "Hospital Department",
+        "team": "Organizational team",
+        "govt": "Government",
+        "ins": "Insurance Company",
+        "edu": "Educational Institute",
+        "reli": "Religious Institution"
+      },
+      "page": {
+        "orSearch": {
+          "title": "Search Organization"
+        },
+        "orCrud": {
+          "titleAdd": "Add Organization",
+          "titleEdit": "Edit Organization"
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Organization list.",
+        "load": "Error on load Organization.",
+        "insert": "Error on insert Organization.",
+        "update": "Error on update Organization.",
+        "delete": "Error on delete Organization."
+      },
+      "success": {
+        "insert": "Organization inserted.",
+        "update": "Organization updated.",
+        "delete": "Organization deleted."
+      }
+    },
+    "municipalities": {
+      "istat": {
+        "label": "Istat"
+      },
+      "cadastral": {
+        "label": "Cadastral"
+      },
+      "code": {
+        "label": "Code"
+      },
+      "name": {
+        "label": "Name"
+      },
+      "startPeriod": {
+        "label": "Start Period"
+      },
+      "endPeriod": {
+        "label": "End Period"
+      },
+      "district": {
+        "label": "District"
+      },
+      "postalCode": {
+        "label": "Postal Code"
+      },
+      "state": {
+        "label": "State"
+      },
+      "city": {
+        "label": "City"
+      },
+      "country": {
+        "label": "Country"
+      },
+      "page": {
+        "municipalitiesSearch": {
+          "title": "Find Municipalities"
+        },
+        "municipalitiesCrud": {
+          "titleAdd": "Add Municipalities",
+          "titleEdit": "Edit Municipalities"
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Municipalities list.",
+        "load": "Error on load Municipalities.",
+        "insert": "Error on insert Municipalities.",
+        "update": "Error on update Municipalities.",
+        "delete": "Error on delete Municipalities."
+      },
+      "success": {
+        "insert": "Municipalities inserted.",
+        "update": "Municipalities updated.",
+        "delete": "Municipalities deleted."
+      }
+    },
+    "domain": {
+      "domainid": {
+        "label": "Domain id"
+      },
+      "authority": {
+        "label": "Authority"
+      },
+      "root": {
+        "label": "Root"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "priority": {
+        "label": "Priority"
+      },
+      "typecode": {
+        "label": "Type Code"
+      },
+      "page": {
+        "dmSearch": {
+          "title": "List Domains"
+        },
+        "dmCrud": {
+          "titleAdd": "Add Domain",
+          "titleEdit": "Edit Domain"
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Domain list.",
+        "load": "Error on load Domain.",
+        "insert": "Error on insert Domain.",
+        "update": "Error on update Domain.",
+        "delete": "Error on delete Domain."
+      },
+      "success": {
+        "insert": "Domain inserted.",
+        "update": "Domain updated.",
+        "delete": "Domain deleted."
+      }
+    },
+    "subscriber": {
+      "id": {
+        "label": "Code id"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "eventindex": {
+        "label": "Event Index"
+      },
+      "endpoint": {
+        "label": "Endpoint"
+      },
+      "lastidEvent": {
+        "label": "n\u00B0"
+      },
+      "enqueuer": {
+        "label": "Enqueuer"
+      },
+      "sender": {
+        "label": "sender"
+      },
+      "page": {
+        "sbSearch": {
+          "title": "List Subscriber"
+        },
+        "sbCrud": {
+          "titleAdd": "Add Subscriber",
+          "titleEdit": "Edit Subscriber"
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Sunscriber list.",
+        "load": "Error on load Sunscriber.",
+        "insert": "Error on insert Sunscriber.",
+        "update": "Error on update Sunscriber.",
+        "delete": "Error on delete Sunscriber."
+      },
+      "success": {
+        "insert": "Sunscriber inserted.",
+        "update": "Sunscriber updated.",
+        "delete": "Sunscriber deleted."
+      }
+    },
+    "scheduler": {
+      "id": {
+        "label": "Code id"
+      },
+      "endpoint": {
+        "label": "Endpoint"
+      },
+      "lastidEvent": {
+        "label": "n\u00B0"
+      },
+      "enqueuer": {
+        "label": "Enqueuer"
+      },
+      "sender": {
+        "label": "Sender"
+      },
+      "page": {
+        "shSearch": {
+          "title": "List schedulers"
+        }
+      }
+    }
+  },
+  "button": {
+    "addParent": {
+      "title": "إضافة قسم"
+    },
+    "deleteParent": {
+      "title": "حذف القسم"
+    },
+    "add": {
+      "label": "إنشاء جديد",
+      "title": "إضافة عنصر جديد"
+    },
+    "edit": {
+      "label": "تحرير",
+      "title": "تحرير عنصر"
+    },
+    "import": {
+      "label": "استيراد ملف",
+      "title": "استيراد من ملف"
+    },
+    "search": {
+      "label": "بحث",
+      "title": "عناصر البحث"
+    },
+    "insert": {
+      "label": "إضافة ",
+      "title": "إضافة عنصر جديد"
+    },
+    "update": {
+      "label": "إضافة",
+      "title": "حفظ عنصر"
+    },
+    "delete": {
+      "label": "حذف",
+      "title": "حذف عنصر"
+    },
+    "deleteAll": {
+      "label": "حذف الكل",
+      "title": "حذف كل مفهوم في تعيين القيمة"
+    },
+    "notify": {
+      "label": "إعلام إلى تطبيق آخر",
+      "title": "إعلام إلى تطبيق آخر"
+    },
+    "select": {
+      "label": "اختار",
+      "title": "حدد العنصر"
+    },
+    "new": {
+      "label": "جديد",
+      "title": "تطبيق جديد"
+    },
+    "previous": {
+      "label": "<<",
+      "title": "السابق"
+    },
+    "next": {
+      "label": ">>",
+      "title": "التالى"
+    },
+    "cancel": {
+      "label": "إلغاء",
+      "title": "إلغاء العملية"
+    },
+    "confirm": {
+      "label": "تأكيد",
+      "title": "تأكيد العملية"
+    },
+    "close": {
+      "label": "إغلاق",
+      "title": "أغلق النافذة"
+    },
+    "back": {
+      "label": "الى الخلف",
+      "title": "الى الخلف"
+    },
+    "show": {
+      "label": "تبين",
+      "title": "تبين"
+    },
+    "hide": {
+      "label": "إخفاء",
+      "title": "إخفاء"
+    },
+    "gotoManual": {
+      "label": "مساعدة",
+      "title": "توجه إلى كتيب"
+    },
+    "apply": {
+      "label": "تطبيق",
+      "title": "تطبيق البيانات في الحقول"
+    },
+    "details": {
+      "label": "Details",
+      "title": "View details"
+    },
+    "play": {
+      "label": "Play",
+      "title": "Play"
+    },
+    "pause": {
+      "label": "Pause",
+      "title": "Pause"
+    }
+  },
+  "structure": {
+    "splash": {
+      "welcome": "Welcome on Mpi 2.0 !",
+      "message": "انقر على مساعدة لمقدمة موجزة لهذا المنتج",
+      "noSplash": "إخفاء هذه النافذة."
+    },
+    "userMenu": {
+      "settings": {
+        "label": "إعدادات"
+      },
+      "help": {
+        "label": "مساعدة ?"
+      },
+      "logout": {
+        "label": "تسجيل خروج"
+      },
+      "role": {
+        "OP": "عامل",
+        "ME": "الطبيب المعالج",
+        "UsersAdmins": "مدير"
+      }
+    },
+    "dashboard": {
+      "load": "خطأ في تحميل البيانات على لوح"
+    },
+    "confirmation": {
+      "confirmDelete": {
+        "label": "أكد الحذف"
+      },
+      "messageDelete": {
+        "label": "?هل أنت متأكد من حذف هذا العنصر"
+      },
+      "confirmUpdate": {
+        "label": "تأكيد الكتابة"
+      },
+      "messageUpdate": {
+        "label": "هل أنت متأكد تريد الكتابة البيانات مع تلك تحميلها؟"
+      },
+      "confirmApplyGmap": {
+        "label": "تأكيد تطبيق"
+      },
+      "messageApplyGmap": {
+        "label": "تطبيق البيانات GMAPs لك الكتابة الموجودة. هل أنت متأكد أنك تريد الكتابة فوق البيانات؟"
+      }
+    },
+    "formMessage": {
+      "valueRequired": "حقل مطلوب",
+      "fiscalCodeLenght": " (16 car)طول الخطأ",
+      "emailFormat": "بريد إلكتروني غير صالح"
+    },
+    "upload": {
+      "drag&Drop": {
+        "label": "السحب والإسقاط",
+        "title": "سحب وإسقاط الملفات الخاصة بك هنا"
+      },
+      "uploadFile": {
+        "title": "تحميل الملف"
+      },
+      "selectFile": {
+        "title": "حدد ملف"
+      },
+      "pause": {
+        "label": "توقيف",
+        "title": "توقيف تحميل الملف"
+      },
+      "resume": {
+        "label": "استئناف",
+        "title": "استئناف تحميل الملف"
+      },
+      "cancel": {
+        "label": "إلغاء",
+        "title": "إلغاء تحميل الملف"
+      },
+      "retry": {
+        "label": "إعادة المحاولة",
+        "title": "محاولة إعادة تحميل الملف"
+      },
+      "upload": {
+        "label": "تحميل",
+        "title": "تحميل الملف"
+      }
+    },
+    "search": {
+      "count": {
+        "label": "صف",
+        "title": "عدد الصفوف للعودة"
+      },
+      "results": {
+        "label": "النتائج",
+        "title": "عدد الصفوف موجود ت",
+        "empty": "لا يوجد عناصر"
+      },
+      "sort": {
+        "label": "فرز",
+        "title": "ترتيب النتائج",
+        "name": "اسم",
+        "identifier": "المعرف",
+        "code": "رمز",
+        "display": "الوصف",
+        "location": "موقع",
+        "direction": {
+          "asc": "صعود",
+          "desc": "هبوط"
+        }
+      }
+    },
+    "toolBox": {
+      "downloadJson": " Json تنزيل",
+      "uploadJson": "Json استيراد",
+      "downloadLanguage": "تحميل اللغة",
+      "uploadLanguage": "استيراد اللغة",
+      "deleteAll": "حذف الكل"
+    },
+    "legend": {
+      "contact": "العلاقات",
+      "address": "العنوان",
+      "legalAddress": "العنوان القانوني",
+      "homeAddress": "عنوان البيت",
+      "homeTelecom": "اتصالات البيت",
+      "workTelecom": "اتصالات العمل",
+      "mobileTelecom": "اتصالات البيت"
+    },
+    "menu": {
+      "load": "خطأ في تحميل القائمة"
+    },
+    "gui": {
+      "advanced": "متقدم",
+      "load": "خطأ في تحميل تفضيلات"
+    },
+    "language": {
+      "load": "خطأ في تحميل اللغة"
+    },
+    "settings": {
+      "load": "خطأ في تحميل إعدادات"
+    },
+    "utils": {
+      "load": "خطأ في تحميل مرافق"
+    },
+    "fhir": {
+      "load": "FHIR خطأ في تحميل مرافق"
+    }
+  }
+}

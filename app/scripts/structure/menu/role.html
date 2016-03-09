@@ -1,0 +1,19 @@
+<a  href="javascript:" data-toggle="dropdown" data-move="rtl" ng-controller="menuCtrl as mc" class="no-padding">
+    <hr class="mg-xs hidden-xs text-hide">
+    <span class="fa fa-stack fa-lg">
+        <i class="fa fa-stack-2x  fa-circle text-white"></i>
+        <i class="fa fa-stack-1x  {{ icon[mc.ms.currentRole.role].icon }} "></i>
+     </span>
+</a>
+    <ul class="dropdown-menu dropdown-menu-right mg-r-xs" ng-controller="menuCtrl as mc">
+        <li class="list-group-item">
+            <div ng-repeat="item in mc.ms.roles">
+                <a href ng-click="mc.ms.setRole(item.role)"><h5>
+                    <div ng-class="mc.ms.currentRole.role==item.role?'fa-circle':'fa-circle-o'" class="fa color"></div>
+                    <i class="fa fa-lg {{ icon[item.role].icon }} pull-right"></i>
+                    <span>{{"structure.userMenu.role."+item.role | translate}}</span>
+                </h5>
+                </a>
+            </div>
+        </li>
+    </ul>

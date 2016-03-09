@@ -1,0 +1,70 @@
+<div class="ngdialog-message">
+
+    <style>
+        .my-drop-zone {
+            border: dotted 3px lightgray;
+        }
+    </style>
+    <div flow-init="{target: '/mci', testChunks:false}" flow-files-submitted="$flow.upload()">
+        <h3>{{'structure.upload.selectFile.title' | translate}}</h3>
+
+        <div flow-drop
+             flow-drag-enter="style={border: '3px dotted green'}"
+             flow-drag-leave="style={}"
+             class="well my-drop-zone"
+             ng-style="style"
+             ng-hide="$flow.files.length">
+            {{'structure.upload.drag&Drop.title' | translate}}
+        </div>
+        <div ng-hide="$flow.files.length" class="btn btn-default pull-right " flow-btn="">{{'structure.upload.uploadFile.title' | translate}}</div>
+        <i flow-txt="$flow.files[0]"></i>
+        <br>
+        <div ng-repeat="file in $flow.files" class="transfer-box">
+            {{file.relativePath}} ({{file.size}}bytes)
+            <div class="progress progress-striped" ng-class="{active: file.isUploading()}">
+                <div class="progress-bar" role="progressbar"
+                     aria-valuenow="{{file.progress() * 100}}"
+                     aria-valuemin="0"
+                     aria-valuemax="100"
+                     ng-style="{width: (file.progress() * 100) + '%'}">
+                    <span class="sr-only">{{file.progress()}}% Complete</span>
+                </div>
+            </div>
+            <div class="row" ng-show="!fc.uploaded">
+                <div class="col-sm-10 btn-group">
+                    <button class="btn btn-xs btn-warning" ng-click="file.pause()"
+                            ng-show="!file.paused && file.isUploading()"
+                            title="{{'structure.upload.pause.title' | translate}}">
+                        {{'structure.upload.pause.label' | translate}}
+                    </button>
+                    <button class="btn btn-xs btn-warning" ng-click="file.resume()" ng-show="file.paused"
+                            title="{{'structure.upload.resume.title' | translate}}">
+                        {{'structure.upload.resume.label' | translate}}
+                    </button>
+                    <button class="btn btn-xs btn-danger" ng-click="file.cancel()"
+                            title="{{'structure.upload.cancel.title' | translate}}">
+                        {{'structure.upload.cancel.label' | translate}}
+                    </button>
+                    <button class="btn btn-xs btn-info" ng-click="file.retry()" ng-show="file.error"
+                            title="{{'structure.upload.retry.title' | translate}}">
+                        {{'structure.upload.retry.label' | translate}}
+                    </button>
+                </div>
+                <div class=" col-sm-2 btn-group pull-right">
+                    <button class="btn btn-success pull-right" ng-click="fc.uploadFile($flow);"
+                            title="{{'structure.upload.upload.title' | translate}}">{{'structure.upload.upload.label' |
+                        translate}}
+                    </button>
+                </div>
+            </div>
+            <div class="row" ng-show="fc.uploaded">
+                <div class="col-sm-8 col-sm-offset-1" ng-show="message.message">
+                    <i class="fa {{icon.resultDot.icon}}" ng-class="message.color"></i> {{message.message | translate }}
+                    <small ng-show="message.details">
+                        Details: {{message.details}}
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

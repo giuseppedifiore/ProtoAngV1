@@ -1,0 +1,26 @@
+<div class="well bg-success "> <h2 class="text-white"> {{'structure.splash.welcome' | translate }}</h2></div>
+<div>
+    <h3 class="text-color">
+        <small>{{'structure.splash.message' | translate }}</small>
+    </h3>
+</div>
+<br>
+<br>
+
+<!--<carousel interval="myInterval" no-wrap="noWrapSlides">
+    <slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}" style="margin:auto;">
+        <div class="carousel-caption">
+            <p>{{slide.text}}</p>
+        </div>
+    </slide>
+</carousel>-->
+
+<div>
+    <input type="checkbox" ng-model="noSplash"> {{'structure.splash.noSplash' | translate }}
+</div>
+
+<div class="ngdialog-buttons">
+    <button type="button" class="btn btn-color" ng-click="go('manual','manual');confirm(0)">{{'button.gotoManual.label' | translate}}</button>
+    <button type="button" class="btn btn-color pull-right" ng-click="confirm(noSplash)">{{'button.close.label' | translate}}</button>
+</div>

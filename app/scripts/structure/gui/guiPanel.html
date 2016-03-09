@@ -1,0 +1,90 @@
+<div>&nbsp;</div>
+<div class="panel panel-color" draggable="true">
+    <div class="panel-heading"> Language <a class="pull-right" ng-click="languageHide=!languageHide"><i
+            ng-class="languageHide?'{{icon.expand.icon}}':'{{icon.collapse.icon}}'" class="fa "></i></a></div>
+    <div ng-hide="languageHide" class="panel-body">
+        <div ng-repeat="item in language" ng-show="item.supported">
+            <a href ng-click="changeLanguage(item.code)"><h5>
+                <i ng-class="currentLanguage==item.code?'fa-circle':'fa-circle-o'" class="fa color"></i>
+                {{item.value}}
+            </h5>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="panel panel-color" draggable="true">
+    <div class="panel-heading"> Primary Color <a class="pull-right" ng-click="colorHide=!colorHide"><i
+            ng-class="colorHide?'{{icon.expand.icon}}':'{{icon.collapse.icon}}'" class="fa "></i></a></div>
+    <div ng-hide="colorHide" class="panel-body">
+        <span ng-repeat="item in gui.gs.color()">
+        <button class="btn" ng-style="{'background-color':item.hex}"
+                ng-click="gui.gs.changeColor(item)">
+            <i ng-show="currentColor.code==item.code" class="fa fa-check text-white"></i>
+        </button>
+         </span>
+    </div>
+</div>
+
+<div class="panel panel-color" draggable="true">
+    <div class="panel-heading "> Fonts <a class="pull-right" ng-click="fontHide=!fontHide"><i
+            ng-class="fontHide?'{{icon.expand.icon}}':'{{icon.collapse.icon}}'" class="fa "></i></a></div>
+    <div ng-hide="fontHide" class="panel-body">
+        <div ng-repeat="item in gui.gs.font()">
+            <a href ng-click="gui.gs.changeFont(item)"><h5>
+                <i ng-class="currentFont.code==item.code?'fa-circle':'fa-circle-o'" class="fa color"></i>
+                {{item.name}}
+            </h5>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="panel panel-color" draggable="true">
+    <div class="panel-heading"> Primary Desk <a class="pull-right" ng-click="deskHide=!deskHide"><i
+            ng-class="deskHide?'{{icon.expand.icon}}':'{{icon.collapse.icon}}'" class="fa "></i></a></div>
+    <div ng-hide="deskHide" class="panel-body">
+        <div class="col-sm-2 col-xs-6 item" ng-repeat="item in gui.gs.desk()">
+                <a href class="thumbnail" ng-click="gui.gs.changeDesk(item)">
+                    <i ng-class="currentDesk.code==item.code?'fa-circle':'fa-circle-o'" class="fa color"></i>
+                    <img ng-src="template/img/desktop.{{item.code}}.png" />
+                </a>
+         </div>
+    </div>
+</div>
+
+<!--
+<div class="panel panel-color" draggable="true">
+    <div class="panel-heading">
+        <a ng-click="deexEnabled = !deexEnabled; gui.gs.enableDeex(deexEnabled)" >
+            <i ng-class="deexEnabled?'fa-toggle-on':'fa-toggle-off'" class="fa fa-inverse color"></i> Deex lab</a>
+    </div>
+    <div ng-show="deexEnabled" class="panel-body">
+        <div  class="col-md-6 col-sm-6">
+            <div ng-repeat="item in gui.gs.deexEngine()">
+                <a href ng-click="gui.gs.changeDeex(item)"><h5>
+                    <i ng-class="currentDeex.code==item.code?'fa-circle':'fa-circle-o'" class="fa color"></i>
+                    {{item.name}}
+                </h5>
+                </a>
+            </div>
+        </div>
+
+        <div ng-show="currentDeex.code=='browser'" class="col-md-6 col-sm-6">
+            <div class="col-xs-4" ng-repeat="item in gui.gs.simulateDevice()">
+                <a href ng-click="gui.gs.changeSimulateDevice(item)">
+                    <i ng-class="currentSimulateDevice.code==item.code?'color':''" title="{{item.name}} View" class="fa {{item.icon}} fa-lg"></i>
+                </a>
+            </div>
+
+            <div class="col-xs-2" ng-repeat="item in gui.gs.theme()">
+                <a href ng-click="gui.gs.changeTheme(item)">
+                    <i ng-class="   currentTheme.code==item.code?'color':''" class="fa {{item.icon}} fa-lg"></i>
+                </a>
+            </div>
+            <br>
+        </div>
+    </div>
+</div>
+-->
+
+

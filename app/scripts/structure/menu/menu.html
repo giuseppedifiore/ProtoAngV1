@@ -1,0 +1,22 @@
+<div class="navbar-default sidebar" role="navigation" ng-cloak>
+    <div class="sidebar-nav navbar-collapse" ng-init="mc.ms.setRoles()">
+        <ul class="nav in" id="side-menu">
+            <sidebar-search></sidebar-search>
+            <li ng-repeat="group in mc.ms.currentRole.menu">
+                <a ng-show="group.inMenu">
+                    <i class="fa {{icon[group.item].icon}}"></i>
+                    <span>{{'menu.item.'+group.item | translate}}</span>
+                    <i ng-show="group.sub"></i>
+                </a>
+                <ul class="nav nav-second-level" collapse="mc.collapseVar!=1">
+                    <li ng-repeat="item in group.sub" ng-show="item.inMenu">
+                        <a href ng-click="go(item.route,item.item,icon[item.item].icon)">
+                            <i ng-show="icon[item.item].icon" class="fa {{icon[item.item].icon}}"></i>
+                            <span>{{'menu.item.'+item.item | translate}}</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

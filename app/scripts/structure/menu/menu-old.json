@@ -1,0 +1,74 @@
+[
+  {
+    "item": "dashboard",
+    "route": "dashboard",
+    "inMenu": true,
+    "inDesk": false
+  },
+  {
+    "item": "desk",
+    "route": "desk",
+    "inMenu": true,
+    "inDesk": false
+  },
+  {
+    "item": "valueSet",
+    "route": "-",
+    "inMenu": true,
+    "inDesk": false,
+    "sub": [
+      {
+        "item": "valueSet",
+        "route": "vsSearch/!/!/!",
+        "inMenu": true,
+        "inDesk": true
+      },
+      {
+        "item": "conceptMap",
+        "route": "cmSearch/!/!/!",
+        "inMenu": true,
+        "inDesk": true
+      },
+      {
+        "item": "notify",
+        "route": "notifySearch/!/!",
+        "inMenu": true,
+        "inDesk": true
+      }
+    ]
+  },
+  {
+    "item": "practitioner",
+    "route": "-",
+    "inMenu": true,
+    "inDesk": false,
+    "sub": [
+      {
+        "item": "practitioner",
+        "route": "practitionerSearch/!/!/!/!/!/!",
+        "inMenu": true,
+        "inDesk": true
+      }
+    ]
+  },
+  {
+    "item": "location",
+    "route": "-",
+    "inMenu": true,
+    "inDesk": false,
+    "sub": [
+      {
+        "item": "department",
+        "route": "locationVsSearch/department/!",
+        "inMenu": true,
+        "inDesk": true
+      },
+      {
+        "item": "hospital",
+        "route": "locationVsSearch/hospital/!",
+        "inMenu": true,
+        "inDesk": true
+      }
+    ]
+  }
+]

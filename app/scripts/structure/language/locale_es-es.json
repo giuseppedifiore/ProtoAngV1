@@ -1,0 +1,1355 @@
+{
+  "menu": {
+    "item": {
+      "signin": "Reg\u00CDstrate",
+      "admin": "Administrator",
+      "home": "Home",
+      "desk": "Escritorio",
+      "dashboard": "Dashboard",
+      "language": "Idiomas",
+      "languageVsSearch": "Find Language",
+      "languageVsCrud": "Edit Language",
+      "valueSet": "Diccionarios",
+      "vsSearch": "Diccionarios",
+      "vsCrud": "Diccionario Editar",
+      "ccSearch": "Concepto",
+      "ccCrud": "Cambio de concepto",
+      "dataElement": "Elemento de datos",
+      "deCrud": "Elemento de datos modificados",
+      "practitioner": "M\u00E9dicos",
+      "practitionerCrud": "Cambio de m\u00E9dico",
+      "practitionerSearch": "M\u00E9dicos",
+      "location": "Estructuras",
+      "locationSearch": "Estructuras",
+      "locationCrud": "Cambio de Estructura",
+      "locationVsSearch": "Estructura de la Investigaci\u00F3n",
+      "department": "Departamentos",
+      "departmentSearch": "Departamentos",
+      "departmentCrud": "Departamento de Edici\u00F3n",
+      "hospital": "Hospitales",
+      "hospitalSearch": "Hospitales",
+      "hospitalCrud": "Hospital de Cambio",
+      "conceptMap": "Mapping",
+      "cmSearch": "Mapping",
+      "cmCrud": "Modificar mapeo",
+      "mcCrud": "El cambio Mapa conceptual",
+      "valueSetSelect": "Buscar ValueSet Concept",
+      "organization": "Organization",
+      "orSearch": "Organization",
+      "orCrud": "Modifica Organization",
+      "orVsSearch": "Municipalities",
+      "municipalities": "Municipalities",
+      "mnSearch": "Municipalities",
+      "mnCrud": "Edit Municipalities",
+      "municipalitiesCrud": "Edit Municipalities",
+      "patient": "Patient",
+      "ptSearch": "Patient",
+      "ptCrud": "Edit patient",
+      "ptVsSearch": "Patient",
+      "ptVsCrud": "Edit Patient",
+      "backoffice": "Backoffice",
+      "domain": "Domain",
+      "dmSearch": "Domains",
+      "dmCrud": "Edit Domain",
+      "subscriber": "Subscribers",
+      "sbSearch": "Subscribers",
+      "sbCrud": "Edit Subscribers",
+      "scheduler": "Schedulers",
+      "shSearch": "Schedulers",
+      "notify": "Notificaciones",
+      "notifySearch": "Find Application",
+      "notifyCrud": "Edit Application",
+      "doc&links": "Doc y Links",
+      "monitor": "Las pruebas de Monitor",
+      "linksFhir": "Fhir Links",
+      "manual": "Manual",
+      "changeLog": "Cambio de registro",
+      "color": "Primary Colors",
+      "theme": "Temas",
+      "font": "Personajes",
+      "undefined": "Session"
+    }
+  },
+  "item": {
+    "signin": {
+      "signin": "Reg\u00CDstrate",
+      "login": "Entrar",
+      "masterCode": "\u00CDndice de C\u00F3digo Maestro 2.0",
+      "username": "Usuario",
+      "password": "Contrase\u00F1a"
+    },
+    "valueSet": {
+      "identifier": {
+        "label": "Id"
+      },
+      "id": {
+        "label": "Id"
+      },
+      "name": {
+        "label": "Nombre"
+      },
+      "description": {
+        "label": "Descripci\u00F3n"
+      },
+      "publisher": {
+        "label": "Editor"
+      },
+      "status": {
+        "label": "Estado",
+        "draft": "Proyecto",
+        "active": "Activar",
+        "retired": "Retiro"
+      },
+      "experimental": {
+        "label": "Experimental"
+      },
+      "extensible": {
+        "label": "Extensible"
+      },
+      "system": {
+        "label": "Sistema"
+      },
+      "value": {
+        "label": "Valor"
+      },
+      "version": {
+        "label": "Versi\u00F3n"
+      },
+      "requirements": {
+        "label": "Requisitos"
+      },
+      "copyright": {
+        "label": "Derechos de autor"
+      },
+      "immutable": {
+        "label": "Inmutable"
+      },
+      "caseSensitive": {
+        "label": "Case Sensitive"
+      },
+      "valuesetType": {
+        "label": "Tipo de diccionario"
+      },
+      "metadataType": {
+        "label": "Tipo de metadatos"
+      },
+      "code": {
+        "label": "C\u00F3digo"
+      },
+      "display": {
+        "label": "Descripci\u00F3n"
+      },
+      "definition": {
+        "label": "Definici\u00F3n formal"
+      },
+      "tab": {
+        "dataValueSet": "Diccionario de Datos",
+        "concept": "Concepto",
+        "metadata": "Metadatos"
+      },
+      "toNotify": {
+        "label": "to Notify"
+      },
+      "metadata": {
+        "dataElement": {
+          "label": "Elemento"
+        },
+        "practitioner": {
+          "label": "M\u00E9dico"
+        },
+        "location": {
+          "label": "Estructura"
+        },
+        "organization": {
+          "label": "Organization"
+        },
+        "municipalities": {
+          "label": "Municipalities"
+        },
+        "medication": {
+          "label": "Medicamentos"
+        }
+      },
+      "page": {
+        "valueSetSearch": {
+          "title": "Diccionario Buscar"
+        },
+        "valueSetCrud": {
+          "titleAdd": "Crear diccionario",
+          "titleEdit": "Diccionario Editar"
+        },
+        "ccSearch": {
+          "title": "Conceptos de investigaci\u00F3n"
+        },
+        "ccCrud": {
+          "titleAdd": "Crear Conceptos",
+          "titleEdit": "Cambio de Conceptos",
+          "designationAdd": "A\u00F1adir Designaci\u00F3n",
+          "designationDelete": "Eliminar Designaci\u00F3n"
+        }
+      },
+      "error": {
+        "search": "Error en la lista dela hallazgo ValueSet.",
+        "load": "Error al cargar ValueSet.",
+        "upload": "Errores cargar archivos de Excel",
+        "insert": "Inserci\u00F3n ValueSet errores.",
+        "update": "Actualizaci\u00F3n ValueSet errores.",
+        "delete": "Eliminaci\u00F3n ValueSet errores.",
+        "notify": "Notificaci\u00F3n de error ValueSet."
+      },
+      "success": {
+        "insert": "Inserci\u00F3n ValueSet hizo.",
+        "update": "Actualizaci\u00F3n ValueSet hizo.",
+        "delete": "La cancelaci\u00F3n de ValueSet hecho.",
+        "upload": "Carga el archivo de Excel hecho.",
+        "notify": "Notificaci\u00F3n de Suscripci\u00F3n de ValueSet hecho."
+      }
+    },
+    "dataElement": {
+      "identifier": {
+        "label": "ID"
+      },
+      "id": {
+        "label": "Id"
+      },
+      "name": {
+        "label": "Nombre"
+      },
+      "description": {
+        "label": "Descripci\u00F3n"
+      },
+      "publisher": {
+        "label": "Editor"
+      },
+      "status": {
+        "label": "Estado"
+      },
+      "system": {
+        "label": "Sistema"
+      },
+      "value": {
+        "label": "Valor"
+      },
+      "version": {
+        "label": "Versi\u00F3n"
+      },
+      "defaultValueString": {
+        "label": "Valor por defecto"
+      },
+      "tab": {
+        "concept": "Concepto",
+        "metadata": "Metadatos"
+      },
+      "page": {
+        "deCrud": {
+          "titleAdd": "Insertar datos Elemento",
+          "titleEdit": "El cambio de datos del elemento"
+        }
+      },
+      "error": {
+        "insert": "La inclusi\u00F3n de errores del elemento de datos.",
+        "update": "Actualizaci\u00F3n errores del elemento de datos.",
+        "delete": "Eliminaci\u00F3n de errores del elemento de datos."
+      },
+      "success": {
+        "insert": "Introducci\u00F3n de elementos de datos hizo.",
+        "update": "Actualizaci\u00F3n del Elemento de datos hizo.",
+        "delete": "La cancelaci\u00F3n del Elemento de datos hizo."
+      }
+    },
+    "practitioner": {
+      "identifier": {
+        "label": "ID"
+      },
+      "fiscalCode": {
+        "label": "C\u00F3digo Tributario"
+      },
+      "codice": {
+        "label": "C\u00F3digo"
+      },
+      "id": {
+        "label": "Id"
+      },
+      "name": {
+        "label": "Nombre"
+      },
+      "nominative": {
+        "label": "Nombre"
+      },
+      "given": {
+        "label": "Nombre"
+      },
+      "family": {
+        "label": "Apellidos"
+      },
+      "birthDate": {
+        "label": "Born"
+      },
+      "gender": {
+        "label": "Sexo",
+        "male": "Hombre",
+        "female": "Mujer",
+        "other": "Other",
+        "unknown":"Unknown"
+      },
+      "description": {
+        "label": "Descripci\u00F3n"
+      },
+      "system": {
+        "label": "Sistema"
+      },
+      "value": {
+        "label": "Valor"
+      },
+      "address": {
+        "label": "Direcci\u00F3n",
+        "use": {
+          "label": "Tipo",
+          "birth": "Nacimiento",
+          "residence": "Residenza",
+          "domicile": "Domicilio"
+        }
+      },
+      "line": {
+        "label": "Via"
+      },
+      "city": {
+        "label": "Ciudad"
+      },
+      "state": {
+        "label": "Estado"
+      },
+      "department": {
+        "label": "Department"
+      },
+      "hospital": {
+        "label": "Hospital"
+      },
+      "postalCode": {
+        "label": "Cap"
+      },
+      "country": {
+        "label": "Provincia"
+      },
+      "telecom": {
+        "label": "Contacto",
+        "system": {
+          "label": "Tipo",
+          "email": "Enviar",
+          "phone": "Telephone",
+          "url": "Url",
+          "fax": "Fax"
+        },
+        "use": {
+          "label": "Lugar",
+          "home": "House",
+          "work": "Trabajo",
+          "mobile": "Mobile"
+        }
+      },
+      "practitionerRole": {
+        "label": "Papel"
+      },
+      "role": {
+        "label": "Papel",
+        "": "Sin Cargo",
+        "doctor": "Doctor",
+        "nurse": "Enfermera",
+        "pharmacist": "Farmac\u00E9utico",
+        "researcher": "Investigador",
+        "teacher": "Maestro",
+        "ict": "Las TIC Profesional"
+      },
+      "specialty": {
+        "label": "Especializaci\u00F3n",
+        "cardio": "Cardiolog\u00CDa",
+        "dent": "Dentista",
+        "dietary": "Diet\u00E9tico",
+        "midw": "Partera",
+        "sysarch": "Ingeniero de Sistemas"
+      },
+      "communication": {
+        "label": "Comunicaci\u00F3n",
+        "text": {
+          "label": "Idioma"
+        }
+      },
+      "coding": {
+        "label": "Codificaci\u00F3n"
+      },
+      "text": {
+        "label": "Texto"
+      },
+      "managingOrganization": {
+        "label": "Estructura"
+      },
+      "location": {
+        "label": "Estructura",
+        "id": {
+          "label": "ID"
+        }
+      },
+      "partOf": {
+        "label": "Parte de la estructura"
+      },
+      "code": {
+        "label": "C\u00F3digo"
+      },
+      "display": {
+        "label": "Descripci\u00F3n"
+      },
+      "qualification": {
+        "label": "Calificaci\u00F3n"
+      },
+      "startPeriod": {
+        "label": "Fecha de Inicio"
+      },
+      "endPeriod": {
+        "label": "Fecha de finalizaci\u00F3n"
+      },
+      "tab": {
+        "concept": "Concepto",
+        "metadata": "Metadatos"
+      },
+      "page": {
+        "practitionerCrud": {
+          "titleAdd": "Enter Doctor",
+          "titleEdit": "Cambio de m\u00E9dico"
+        },
+        "practitionerSearch": {
+          "title": "Investigaci\u00F3n M\u00E9dica"
+        },
+        "selectLocation": {
+          "title": "Seleccionar Estructura"
+        }
+      },
+      "error": {
+        "load": "Error al cargar el Doctor",
+        "search": "Error en la b�squeda de m\u00E9dicos",
+        "insert": "La inclusi\u00F3n de errores del M\u00E9dico",
+        "update": "Actualizaci\u00F3n errores del m\u00E9dico",
+        "delete": "Eliminaci\u00F3n de errores del doctor"
+      },
+      "success": {
+        "insert": "Introducci\u00F3n al m\u00E9dico hizo",
+        "update": "Actualizaci\u00F3n del m\u00E9dico hizo",
+        "delete": "La cancelaci\u00F3n del M\u00E9dico hizo"
+      }
+    },
+    "patient": {
+      "identifier": {
+        "label": "Identifier"
+      },
+      "fiscalCode": {
+        "label": "Fiscal Code"
+      },
+      "codice": {
+        "label": "Code"
+      },
+      "id": {
+        "label": "Id"
+      },
+      "given": {
+        "label": "Name"
+      },
+      "nominative": {
+        "label": "Nominative"
+      },
+      "family": {
+        "label": "Family"
+      },
+      "birthDate": {
+        "label": "Birth Date"
+      },
+      "birthPlace": {
+        "label": "Birth Place"
+      },
+      "gender": {
+        "label": "Sesso",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other",
+        "unknown": "Unknown"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "system": {
+        "": "",
+        "label": "System",
+        "other": "Other",
+        "idCard": "Id Card",
+        "socialNumber": "Social Number",
+        "x1v1Mpi": "MPI id",
+        "idInternal": "Internal id"
+      },
+      "x1v1Mpi": {
+        "label": "MPI id"
+      },
+      "maritalStatus": {
+        "label": "Marital Status",
+        "U": "Unmarried",
+        "A": "Annulled",
+        "D": "Divorced",
+        "I": "Interlocutory",
+        "L": "Legally Separated",
+        "M": "Married",
+        "P": "Polygamous",
+        "S": "Never Married",
+        "T": "Domestic partner",
+        "W": "Widowed"
+      },
+      "communication": {
+        "label": "Communication"
+      },
+      "value": {
+        "label": "Value"
+      },
+      "startPeriod": {
+        "label": "Start Period"
+      },
+      "endPeriod": {
+        "label": "End Period"
+      },
+      "address": {
+        "label": "Address",
+        "use": {
+          "label": "Use",
+          "birth": "Birth",
+          "residence": "Residence",
+          "domicile": "Domicile",
+          "home": "Home",
+          "work": "Work",
+          "temp": "Temp",
+          "old": "Old"
+        }
+      },
+      "line": {
+        "label": "Line"
+      },
+      "civic": {
+        "label": "n\u00B0 "
+      },
+      "city": {
+        "label": "City"
+      },
+      "state": {
+        "label": "State"
+      },
+      "postalCode": {
+        "label": "Postal Code"
+      },
+      "country": {
+        "label": "Country"
+      },
+      "telecom": {
+        "label": "Telecom",
+        "system": {
+          "label": "System",
+          "email": "Email",
+          "phone": "Phone",
+          "url": "Url",
+          "fax": "Fax"
+        },
+        "use": {
+          "label": "Use",
+          "home": "Home",
+          "work": "Work",
+          "mobile": "Mobile"
+        }
+      },
+      "page": {
+        "ptSearch": {
+          "title": "Search Patient"
+        },
+        "ptCrud": {
+          "titleAdd": "Create Patient",
+          "titleEdit": "Edit Patient",
+          "group": {
+            "primaryInformation": "Primary Information",
+            "identifiers": "Identifiers",
+            "legalAddress": "Legal Address",
+            "homeAddress": "Home Address",
+            "contacts": "Contacts"
+          }
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Patient",
+        "load": "Error on load Patient",
+        "insert": "Error on insert Patient",
+        "update": "Error on update Patient",
+        "delete": "Error on delete Patient"
+      },
+      "success": {
+        "insert": "Patient inserted",
+        "update": "Patient updated",
+        "delete": "Patient deleted"
+      }
+    },
+    "location": {
+      "identifier": {
+        "label": "ID"
+      },
+      "system": {
+        "label": "Sistema"
+      },
+      "value": {
+        "label": "Valor"
+      },
+      "name": {
+        "label": "Nombre"
+      },
+      "description": {
+        "label": "Descripci\u00F3n"
+      },
+      "code": {
+        "label": "C\u00F3digo"
+      },
+      "mode": {
+        "label": "Modo",
+        "instance": "Posici\u00F3n",
+        "kind": "Clase"
+      },
+      "tab": {
+        "concept": "Concepto",
+        "metadata": "Metadatos"
+      },
+      "telecom": {
+        "label": "Contacto",
+        "system": {
+          "label": "Tipo",
+          "email": "Enviar",
+          "phone": "Telephone",
+          "url": "Url",
+          "fax": "Fax"
+        },
+        "use": {
+          "label": "Lugar",
+          "home": "House",
+          "work": "Trabajo",
+          "mobile": "Mobile"
+        },
+        "value": {
+          "label": "Valor"
+        }
+      },
+      "address": {
+        "label": "Direcci\u00F3n",
+        "use": {
+          "label": "Tipo",
+          "home": "Base",
+          "temp": "Temporal"
+        },
+        "city": {
+          "label": "Ciudad"
+        },
+        "line": {
+          "label": "Via"
+        },
+        "country": {
+          "label": "Provincia"
+        },
+        "state": {
+          "label": "Pa\u00CDs"
+        },
+        "postalCode": {
+          "label": "Cap"
+        }
+      },
+      "position": {
+        "label": "Posici\u00F3n",
+        "latitude": {
+          "label": "Latitude"
+        },
+        "longitude": {
+          "label": "Longitud"
+        },
+        "altitude": {
+          "label": "Altitud"
+        }
+      },
+      "partOf": {
+        "label": "Parte de la estructura"
+      },
+      "locationType": {
+        "label": "Tipo de Estructura",
+        "hospital": "Hospital",
+        "anatIstPat": "Anatom\u00CDa Patol\u00F3gica e Histolog\u00CDa",
+        "card": "Cardiolog\u00CDa",
+        "chirArtSup": "La cirug\u00CDa de la parte superior",
+        "chirGen": "Cirug\u00CDa general",
+        "diab": "Diabetes",
+        "emat": "Hematolog\u00CDa",
+        "farma": "Farmacia",
+        "gastr": "Gastroenterolog\u00CDa",
+        "geri": "Geriatr\u00CDa",
+        "labAna": "Los an\u00E1lisis de laboratorio",
+        "lung": "La atenci\u00F3n a largo plazo"
+      },
+      "physicalType": {
+        "label": "Estructura F\u00CDsica",
+        "bu": "Edificio",
+        "wi": "Ala",
+        "lvl": "Nivel",
+        "co": "Corredor",
+        "ro": "Habitaci\u00F3n",
+        "bd": "Cama",
+        "ve": "Veh\u00CDculo",
+        "ho": "House",
+        "ca": "Gabinete",
+        "rd": "Camino",
+        "jdn": "Jurisdicci\u00F3n",
+        "area": "\u00E1rea"
+      },
+      "status": {
+        "label": "Estado",
+        "": "Estado",
+        "active": "Activar",
+        "suspended": "Suspendido",
+        "inactive": "Inactivo"
+      },
+      "page": {
+        "locationCrud": {
+          "titleAdd": "Agregar propiedad",
+          "titleEdit": "Cambio de Estructura"
+        },
+        "locationSearch": {
+          "title": "Estructura de la Investigaci\u00F3n"
+        },
+        "selectLocation": {
+          "title": "Seleccionar Estructura"
+        },
+        "departmentVsCrud": {
+          "titleAdd": "Enter Departamento",
+          "titleEdit": "Departamento de Edici\u00F3n"
+        },
+        "departmentVsSearch": {
+          "title": "Departamento de Investigaci\u00F3n"
+        },
+        "hospitalVsCrud": {
+          "titleAdd": "Introduzca el Hospital",
+          "titleEdit": "Hospital de Cambio"
+        },
+        "hospitalVsSearch": {
+          "title": "Hospital de Investigaci\u00F3n"
+        }
+      },
+      "error": {
+        "search": "Error en la obtenci\u00F3n de Estructuras",
+        "insert": "Inserci\u00F3n errores de la estructura",
+        "update": "Actualizar Estructura errores ",
+        "delete": "Eliminaci\u00F3n de errores de la estructura"
+      },
+      "success": {
+        "insert": "Inserci\u00F3n de la estructura hecha.",
+        "update": "Actualizaci\u00F3n de la Estructura",
+        "delete": "La cancelaci\u00F3n de la estructura de hecho."
+      }
+    },
+    "conceptMap": {
+      "identifier": {
+        "label": "ID"
+      },
+      "id": {
+        "label": "Id"
+      },
+      "name": {
+        "label": "Nombre"
+      },
+      "description": {
+        "label": "Descripci\u00F3n"
+      },
+      "publisher": {
+        "label": "Editor"
+      },
+      "status": {
+        "label": "Estado"
+      },
+      "experimental": {
+        "label": "Experimental"
+      },
+      "system": {
+        "label": "Sistema"
+      },
+      "value": {
+        "label": "Valor"
+      },
+      "sourceUri": {
+        "label": "ValueSet Fuente"
+      },
+      "targetUri": {
+        "label": "ValueSet destino"
+      },
+      "sourceReference": {
+        "label": "C\u00F3digo fuente que se asigna"
+      },
+      "targetReference": {
+        "label": "C\u00F3digo de destino que se asigna"
+      },
+      "code": {
+        "label": "C\u00F3digo"
+      },
+      "codeSystem": {
+        "label": "Sistema de C\u00F3digo"
+      },
+      "page": {
+        "cmSearch": {
+          "title": "La investigaci\u00F3n Mapa Conceptual",
+          "select": "Seleccionar",
+          "conceptMap": "Mapa Conceptual",
+          "description": "Descripci\u00F3n"
+        },
+        "cmCrud": {
+          "titleAdd": "Crea Mapa Conceptual",
+          "titleEdit": "Cambio de Mapa Conceptual"
+        },
+        "mcSearch": {
+          "title": "Buscar Mapa Conceptos"
+        },
+        "mcCrud": {
+          "titleAdd": "Crear Mapa Conceptos",
+          "titleEdit": "Cambio Mapa Conceptos",
+          "elementAdd": "A\u00F1adir Designaci\u00F3n",
+          "elementDelete": "Eliminar Designaci\u00F3n",
+          "refreshValueSet": "Diccionario de actualizaci\u00F3n",
+          "searchValueSet": "Diccionario Buscar",
+          "sourceList": "Fuente",
+          "targetList": "Destino",
+          "mapList": "Mapa",
+          "deleteAllMap": "Eliminar todos los enlaces"
+        }
+      },
+      "tab": {
+        "conceptMap": "Mapa Conceptual",
+        "mapConcept": "Mapa Conceptual"
+      },
+      "error": {
+        "search": "Error en la b�squeda de la lista dela de Mapa Conceptual",
+        "load": "Error Cargando Mapa Conceptual",
+        "insert": "Los errores de inclusi\u00F3n de la Hoja de Concepto",
+        "update": "Actualizaci\u00F3n errores de la Hoja de Concepto",
+        "delete": "Eliminaci\u00F3n de errores de la Hoja de Concepto"
+      },
+      "success": {
+        "insert": "Inserci\u00F3n Mapa Conceptual hizo.",
+        "update": "Actualizaci\u00F3n del Mapa Conceptual hizo.",
+        "delete": "La cancelaci\u00F3n de la Hoja de Concepto realizado."
+      }
+    },
+    "notify": {
+      "code": {
+        "label": "Code"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "page": {
+        "notifySearch": {
+          "title": "Search Application to notify",
+          "select": "select"
+        },
+        "notifyCrud": {
+          "title": "Edit Application to notify",
+          "titleAdd": "Create Notify",
+          "titleEdit": "Edit Notify"
+        }
+      },
+      "error": {
+        "search": "Error while searching Aplication",
+        "load": "Error while loading Application.",
+        "insert": "Error while adding Application",
+        "update": "Error while updating Application",
+        "delete": "Error while deleting Application"
+      },
+      "success": {
+        "insert": "Application's insert is completed!",
+        "update": "Application's update is completed!",
+        "delete": "Application's delete is completed!"
+      }
+    },
+    "organization": {
+      "code": {
+        "label": "Code"
+      },
+      "identifier": {
+        "label": "Identifier"
+      },
+      "system": {
+        "label": "System"
+      },
+      "value": {
+        "label": "Value"
+      },
+      "name": {
+        "label": "name"
+      },
+      "active": {
+        "label": "Active"
+      },
+      "address": {
+        "label": "Address",
+        "use": {
+          "label": "Use",
+          "birth": "Birth",
+          "residence": "Residence",
+          "domicile": "Domicile"
+        }
+      },
+      "line": {
+        "label": "Line"
+      },
+      "city": {
+        "label": "City"
+      },
+      "state": {
+        "label": "State"
+      },
+      "postalCode": {
+        "label": "Postal Code"
+      },
+      "country": {
+        "label": "Country"
+      },
+      "telecom": {
+        "label": "Telecom",
+        "system": {
+          "label": "System",
+          "email": "Email",
+          "phone": "Phone",
+          "url": "Url",
+          "fax": "Fax"
+        },
+        "use": {
+          "label": "Use",
+          "home": "Home",
+          "work": "Work",
+          "mobile": "Mobile"
+        }
+      },
+      "organizationType": {
+        "label": "Organization Type",
+        "prov": "Healthcare Provider",
+        "dept": "Hospital Department",
+        "team": "Organizational team",
+        "govt": "Government",
+        "ins": "Insurance Company",
+        "edu": "Educational Institute",
+        "reli": "Religious Institution"
+      },
+      "page": {
+        "orSearch": {
+          "title": "Search Organization"
+        },
+        "orCrud": {
+          "titleAdd": "Add Organization",
+          "titleEdit": "Edit Organization"
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Organization list.",
+        "load": "Error on load Organization.",
+        "insert": "Error on insert Organization.",
+        "update": "Error on update Organization.",
+        "delete": "Error on delete Organization."
+      },
+      "success": {
+        "insert": "Organization inserted.",
+        "update": "Organization updated.",
+        "delete": "Organization deleted."
+      }
+    },
+    "municipalities": {
+      "istat": {
+        "label": "Istat"
+      },
+      "cadastral": {
+        "label": "Cadastral"
+      },
+      "code": {
+        "label": "Code"
+      },
+      "name": {
+        "label": "Name"
+      },
+      "startPeriod": {
+        "label": "Start Period"
+      },
+      "endPeriod": {
+        "label": "End Period"
+      },
+      "district": {
+        "label": "District"
+      },
+      "postalCode": {
+        "label": "Postal Code"
+      },
+      "state": {
+        "label": "State"
+      },
+      "city": {
+        "label": "City"
+      },
+      "country": {
+        "label": "Country"
+      },
+      "page": {
+        "municipalitiesSearch": {
+          "title": "Find Municipalities"
+        },
+        "municipalitiesCrud": {
+          "titleAdd": "Add Municipalities",
+          "titleEdit": "Edit Municipalities"
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Municipalities list.",
+        "load": "Error on load Municipalities.",
+        "insert": "Error on insert Municipalities.",
+        "update": "Error on update Municipalities.",
+        "delete": "Error on delete Municipalities."
+      },
+      "success": {
+        "insert": "Municipalities inserted.",
+        "update": "Municipalities updated.",
+        "delete": "Municipalities deleted."
+      }
+    },
+    "domain": {
+      "domainid": {
+        "label": "Domain id"
+      },
+      "authority": {
+        "label": "Authority"
+      },
+      "root": {
+        "label": "Root"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "priority": {
+        "label": "Priority"
+      },
+      "typecode": {
+        "label": "Type Code"
+      },
+      "page": {
+        "dmSearch": {
+          "title": "List Domains"
+        },
+        "dmCrud": {
+          "titleAdd": "Add Domain",
+          "titleEdit": "Edit Domain"
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Domain list.",
+        "load": "Error on load Domain.",
+        "insert": "Error on insert Domain.",
+        "update": "Error on update Domain.",
+        "delete": "Error on delete Domain."
+      },
+      "success": {
+        "insert": "Domain inserted.",
+        "update": "Domain updated.",
+        "delete": "Domain deleted."
+      }
+    },
+    "subscriber": {
+      "id": {
+        "label": "Code id"
+      },
+      "description": {
+        "label": "Description"
+      },
+      "eventindex": {
+        "label": "Event Index"
+      },
+      "endpoint": {
+        "label": "Endpoint"
+      },
+      "lastidEvent": {
+        "label": "n\u00B0"
+      },
+      "enqueuer": {
+        "label": "Enqueuer"
+      },
+      "sender": {
+        "label": "sender"
+      },
+      "page": {
+        "sbSearch": {
+          "title": "List Subscriber"
+        },
+        "sbCrud": {
+          "titleAdd": "Add Subscriber",
+          "titleEdit": "Edit Subscriber"
+        }
+      },
+      "error": {
+        "search": "Error on retrieve Sunscriber list.",
+        "load": "Error on load Sunscriber.",
+        "insert": "Error on insert Sunscriber.",
+        "update": "Error on update Sunscriber.",
+        "delete": "Error on delete Sunscriber."
+      },
+      "success": {
+        "insert": "Sunscriber inserted.",
+        "update": "Sunscriber updated.",
+        "delete": "Sunscriber deleted."
+      }
+    },
+    "scheduler": {
+      "id": {
+        "label": "Code id"
+      },
+      "endpoint": {
+        "label": "Endpoint"
+      },
+      "lastidEvent": {
+        "label": "n\u00B0"
+      },
+      "enqueuer": {
+        "label": "Enqueuer"
+      },
+      "sender": {
+        "label": "Sender"
+      },
+      "page": {
+        "shSearch": {
+          "title": "List schedulers"
+        }
+      }
+    }
+  },
+  "button": {
+    "addParent": {
+      "title": "Add section"
+    },
+    "deleteParent": {
+      "title": "Delete section"
+    },
+    "add": {
+      "label": "Crear",
+      "title": "Crear nuevo elemento"
+    },
+    "edit": {
+      "label": "Editar",
+      "title": "Editar elemento"
+    },
+    "import": {
+      "label": "Cargar archivo",
+      "title": "Cargar desde archivo externo"
+    },
+    "search": {
+      "label": "Buscar",
+      "title": "Buscar un elemento"
+    },
+    "insert": {
+      "label": "Agregar",
+      "title": "Elemento Insertar"
+    },
+    "update": {
+      "label": "Guardar",
+      "title": "Guardar punto"
+    },
+    "delete": {
+      "label": "Borrar",
+      "title": "Borrar elemento"
+    },
+    "deleteAll": {
+      "label": "Eliminar todo",
+      "title": "Eliminar todo el concepto de ValueSet"
+    },
+    "notify": {
+      "label": "Notificaci\u00F3n",
+      "title": "Notificaci\u00F3n a otras aplicaciones"
+    },
+    "select": {
+      "label": "Seleccionar",
+      "title": "Select Item"
+    },
+    "new": {
+      "label": "Nuevo",
+      "title": "Nueva Solicitud"
+    },
+    "previous": {
+      "label": "<<",
+      "title": "Anterior"
+    },
+    "next": {
+      "label": ">>",
+      "title": "Siguiente"
+    },
+    "cancel": {
+      "label": "Cancelar",
+      "title": "Deshacer"
+    },
+    "confirm": {
+      "label": "Confirmaci\u00F3n",
+      "title": "Confirmar la operaci\u00F3n"
+    },
+    "close": {
+      "label": "Cerrar",
+      "title": "Cerrar ventana"
+    },
+    "back": {
+      "label": "Volver",
+      "title": "Volver"
+    },
+    "gotoManual": {
+      "label": "Ayuda",
+      "title": "Ir a Manual"
+    },
+    "apply": {
+      "label": "Aplicar",
+      "title": "Aplicar los campos de datos"
+    },
+    "details": {
+      "label": "Details",
+      "title": "View details"
+    },
+    "play": {
+      "label": "Play",
+      "title": "Play"
+    },
+    "pause": {
+      "label": "Pause",
+      "title": "Pause"
+    }
+  },
+  "structure": {
+    "splash": {
+      "welcome": "Bienvenido a MCI 2.0!",
+      "message": "Haga clic en Ayuda para una breve introducci\u00F3n al producto",
+      "noSplash": "No mostrar m\u00E1s esta ventana."
+    },
+    "userMenu": {
+      "settings": {
+        "label": "Prefereze"
+      },
+      "help": {
+        "label": "Ayudar?"
+      },
+      "logout": {
+        "label": "Desconectar"
+      },
+      "role": {
+        "OP": "Operator",
+        "ME": "Practitioner",
+        "UsersAdmins": "Admin"
+      }
+    },
+    "dashboard": {
+      "load": "Error al cargar el tablero de instrumentos."
+    },
+    "confirmation": {
+      "confirmDelete": {
+        "label": "Confirm Delete"
+      },
+      "messageDelete": {
+        "label": "\u00BFEst\u00E1s seguro que quieres borrar este elemento?"
+      },
+      "confirmUpdate": {
+        "label": "Confirm overwrite"
+      },
+      "messageUpdate": {
+        "label": "Are you sure to want overwrite data with those loaded?"
+      },
+      "confirmApplyGmap": {
+        "label": "Enviar Solicitud"
+      },
+      "messageApplyGmap": {
+        "label": "La aplicaci\u00F3n de los datos gmap sobrescribir los existentes. \u00BFEst\u00E1s seguro de que desea sobrescribir los datos?"
+      }
+    },
+    "formMessage": {
+      "valueRequired": "Necesario",
+      "fiscalCodeLenght": "Wrong longitud (16 coches).",
+      "emailFormat": "Formato de correo electr\u00F3nico no es v\u00E1lido"
+    },
+    "upload": {
+      "drag&Drop": {
+        "label": "Arrastrar y soltar",
+        "title": "Arrastre el archivo aqu\u00CD .."
+      },
+      "uploadFile": {
+        "title": "O Examinar .."
+      },
+      "selectFile": {
+        "title": "Seleccionar archivo"
+      },
+      "pause": {
+        "label": "Pausa",
+        "title": "Pausa el archivo de carga"
+      },
+      "resume": {
+        "label": "Reanudar",
+        "title": "Reanudar carga de archivos"
+      },
+      "cancel": {
+        "label": "Borrar",
+        "title": "Eliminar la carga de archivos"
+      },
+      "retry": {
+        "label": "Volver a intentar",
+        "title": "Por favor, trate de cargar el archivo"
+      },
+      "upload": {
+        "label": "Subir",
+        "title": "Subir"
+      }
+    },
+    "search": {
+      "count": {
+        "label": "L\u00CDneas",
+        "title": "Numero de filas para volver"
+      },
+      "results": {
+        "label": "Resultados",
+        "title": "Numero de filas encontr\u00F3",
+        "empty": "No items found"
+      },
+      "sort": {
+        "label": "Orden",
+        "title": "Ordenar resultados",
+        "name": "Nombre",
+        "identifier": "ID",
+        "code": "C\u00F3digo",
+        "display": "Descripci\u00F3n",
+        "location": "Estructura",
+        "direction": {
+          "asc": "Ascendente",
+          "desc": "Descendente"
+        }
+      }
+    },
+    "toolBox": {
+      "downloadJson": "Download Json",
+      "uploadJson": "Import Json",
+      "downloadLanguage": "Download Language",
+      "uploadLanguage": "Import Language",
+      "deleteAll": "Delete all"
+    },
+    "menu": {
+      "load": "Menu Error loading"
+    },
+    "gui": {
+      "advanced":"Advanced",
+      "load": "Error Cargando Preferencias"
+    },
+    "language": {
+      "load": "Error Cargando Idiomas"
+    },
+    "settings": {
+      "load": "Ajustes de carga de error"
+    },
+    "utils": {
+      "load": "Error Cargando Utilidades"
+    },
+    "fhir": {
+      "load": "Utilidad Cargando fhir error"
+    }
+  }
+}

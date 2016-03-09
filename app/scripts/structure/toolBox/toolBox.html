@@ -1,0 +1,34 @@
+<i href data-toggle="dropdown"
+        class="btn quickmenu fa fa-lg {{ icon.cmd.icon }}"></i>
+<ul class="dropdown-menu dropdown-menu-right" ng-controller="toolBoxCtrl as tb">
+    <li class="list-group" ng-show="tb.button.downloadJson"  >
+        <h4><a href class="btn btn-link fa fa-lg {{icon.download.icon}}"
+               ng-click="tb.tb.downloadJson(objJson,'entity.json')">
+            <small>{{'structure.toolBox.downloadJson' | translate}}</small>
+        </a></h4>
+    </li>
+    <li class="list-group" ng-show="tb.button.uploadConcepts">
+        <h4><a href class="btn btn-link fa fa-lg {{icon.upload.icon}}"
+               ng-click="tb.tb.updloadConcept()">
+            <small>{{'structure.toolBox.uploadJson' | translate}}</small>
+        </a></h4>
+    </li>
+    <li class="list-group" ng-show="tb.button.downloadLanguage">
+        <h4><a href class="btn btn-link fa fa-lg {{icon.download.icon}}"
+               ng-click="tb.tb.downloadLanguage(objLanguage,'language.json')">
+            <small>{{'structure.toolBox.downloadLanguage' | translate}}</small>
+        </a></h4>
+    </li>
+    <li class="list-group" ng-show="tb.button.uploadLanguage">
+        <h4><a href class="btn btn-link fa fa-lg {{icon.upload.icon}}"
+               ng-click="tb.tb.uploadLanguage()">
+            <small>{{'structure.toolBox.uploadLanguage' | translate}}</small>
+        </a></h4>
+    </li>
+    <li class="list-group" ng-show="tb.button.deleteAll">
+        <h4><a href class="btn btn-link fa fa-lg {{icon.deleteAll.icon}}"
+               ng-click="tb.tb.deleteAll()">
+            <small>{{'structure.toolBox.deleteAll' | translate}}</small>
+        </a></h4>
+    </li>
+</ul>

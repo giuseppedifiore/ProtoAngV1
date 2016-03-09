@@ -1,0 +1,60 @@
+[
+  {
+    "item": "dashboard",
+    "route": "dashboard",
+    "inMenu": true,
+    "inDesk": false
+  },
+  {
+    "item": "desk",
+    "route": "desk",
+    "inMenu": true,
+    "inDesk": false
+  },
+  {
+    "item": "backoffice",
+    "route": "-",
+    "inMenu": true,
+    "inDesk": false,
+    "sub": [
+      {
+        "item": "domain",
+        "route": "dmSearch",
+        "inMenu": true,
+        "inDesk": false
+      },
+      {
+        "item": "subscriber",
+        "route": "sbSearch",
+        "inMenu": true,
+        "inDesk": false
+      },
+      {
+        "item": "scheduler",
+        "route": "shSearch",
+        "inMenu": true,
+        "inDesk": false
+      }
+    ]
+  },
+  {
+    "item": "patient",
+    "route": "-",
+    "inMenu": true,
+    "inDesk": false,
+    "sub": [
+      {
+        "item": "patient",
+        "route": "ptSearch",
+        "inMenu": true,
+        "inDesk": true
+      },
+      {
+        "item": "patientIta",
+        "route": "ptVsSearch",
+        "inMenu": true,
+        "inDesk": true
+      }
+    ]
+  }
+]

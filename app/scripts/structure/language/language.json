@@ -1,0 +1,50 @@
+{
+  "it-it": {
+    "code": "it-it",
+    "language": "IT",
+    "value": "Italiano",
+    "urlManual": "https://docs.google.com/presentation/d/1yGwtjW3JVXZm6Y8rUXkoxnNPOqWoj6kSZRnDYdFny4g",
+    "direction":"ltr",
+    "supported": true
+  },
+  "en-gb": {
+    "code": "en-gb",
+    "language": "EN",
+    "value": "English",
+    "urlManual": "https://docs.google.com/presentation/d/1AfHsdfKMeyTRW_xprR1k8B7f_K9OA3IUbei5XWPCGI0",
+    "direction":"ltr",
+    "supported": true
+  },
+  "es-es": {
+    "code": "es-es",
+    "language": "ES",
+    "value": "Espa\u00F1ol",
+    "urlManual": "https://docs.google.com/presentation/d/1yGwtjW3JVXZm6Y8rUXkoxnNPOqWoj6kSZRnDYdFny4g",
+    "direction":"ltr",
+    "supported": true
+  },
+  "fr-fr": {
+    "code": "fr-fr",
+    "language": "FR",
+    "value": "Fran\u00E7ais",
+    "urlManual": "https://docs.google.com/presentation/d/1AfHsdfKMeyTRW_xprR1k8B7f_K9OA3IUbei5XWPCGI0",
+    "direction":"ltr",
+    "supported": true
+  },
+  "zh-cn": {
+    "code": "zh-cn",
+    "language": "ZH",
+    "value": "\u4E2D\u56FD",
+    "urlManual": "https://docs.google.com/presentation/d/1AfHsdfKMeyTRW_xprR1k8B7f_K9OA3IUbei5XWPCGI0",
+    "direction":"ltr",
+    "supported": true
+  },
+  "ar-ar": {
+    "code": "ar-ar",
+    "language": "AR",
+    "value": "\u0627\u0644\u0639\u0631\u0628\u064A\u0629",
+    "urlManual": "https://docs.google.com/presentation/d/1AfHsdfKMeyTRW_xprR1k8B7f_K9OA3IUbei5XWPCGI0",
+    "direction":"rtl",
+    "supported": true
+  }
+}
